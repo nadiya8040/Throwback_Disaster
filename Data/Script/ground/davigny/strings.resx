@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="Machop_0" xml:space="preserve">
+    <value>Oh yeah, Did I mention about Tactics?</value>
+  </data>
+  <data name="Machop_1" xml:space="preserve">
+    <value>You might need to pay attention to your teammates once the size of your active team reached a certain point.</value>
+  </data>
+  <data name="Machop_2" xml:space="preserve">
+    <value>If you notice that things aren't going as planned, check the Tactics menu frequently if Team Mode isn't active.</value>
+  </data>
+  <data name="Machop_3" xml:space="preserve">
+    <value>Otherwise, plan ahead using your best strategy and imagine it as a Tactics RPG.</value>
+  </data>
+  <data name="Machop_4" xml:space="preserve">
+    <value>Did you get all that?</value>
+  </data>
+  <data name="Machop_5" xml:space="preserve">
+    <value>I see... Let me repeat that.</value>
+  </data>
+  <data name="Machop_6" xml:space="preserve">
+    <value>Keep that in mind because I have a present for you, and thanks for listening.</value>
+  </data>
+  <data name="Machop_7" xml:space="preserve">
+    <value>Have fun in your journey.</value>
+  </data>
+  <data name="Bayleef_0" xml:space="preserve">
+    <value>Oh, You've come. Listen, I got a mission for you.</value>
+  </data>
+  <data name="Bayleef_1" xml:space="preserve">
+    <value>I heard that a berry could help my sister recover from her illness..</value>
+  </data>
+  <data name="Bayleef_2" xml:space="preserve">
+    <value>Kind gentleman, could you please locate that Lum Berry for my ill sister?</value>
+  </data>
+  <data name="Natu_0" xml:space="preserve">
+    <value>If you're heading out to dungeon, Make sure to check the Storage and Assembly often.</value>
+  </data>
+  <data name="Natu_1" xml:space="preserve">
+    <value>Just in case you don't lose items and money when you are wiped...</value>
+  </data>
+  <data name="Corsola_0" xml:space="preserve">
+    <value>Some enigmatic lightning destroyed the bridge south of the park...</value>
+  </data>
+  <data name="Mankey_0" xml:space="preserve">
+    <value>I've expected you, {0}, I got a map to spare for you.</value>
+  </data>
+  <data name="Mankey_1" xml:space="preserve">
+    <value>The entrance to the dungeon is to the west of the D'Avigny and Amusement Park.</value>
+  </data>
+  <data name="Mankey_2" xml:space="preserve">
+    <value>Don't die for us because there must be something lurking within.</value>
+  </data>
+  <data name="Message_1" xml:space="preserve">
+    <value>New Dungeons are unlocked.[pause=300]</value>
+  </data>
+  <data name="Cradily_0" xml:space="preserve">
+    <value>Could you help me locate four sticks? They're said to be scattered throughout the dungeons.</value>
+  </data>
+  <data name="Cradily_1" xml:space="preserve">
+    <value>I will perform a ritual to summon a helpful Pokemon and promise to never harm anyone.</value>
+  </data>
+  <data name="Chinchou_0" xml:space="preserve">
+    <value>Want to know how to bring only the necessary items? I have one suggestion.</value>
+  </data>
+  <data name="Chinchou_1" xml:space="preserve">
+    <value>Cherry Congjin and New Backwoods are loaded up with the mons that can be enlisted with Green Apricorn.</value>
+  </data>
+  <data name="Chinchou_2" xml:space="preserve">
+    <value>Don't let the Apricorns go to waste, please!</value>
+  </data>
+  <data name="Bayleef_3" xml:space="preserve">
+    <value>Wait? You really get that Lum Berry for me? Gimme that!</value>
+  </data>
+  <data name="Bayleef_4" xml:space="preserve">
+    <value>She'll be here later once I give her that berry, thank you very much.</value>
+  </data>
+  <data name="Cradily_2" xml:space="preserve">
+    <value>Sticks, there you are! Come to me now, and allow me to perform the ritual!</value>
+  </data>
+  <data name="Cradily_3" xml:space="preserve">
+    <value>Kind explorers, I am grateful! I'll be going off to start a ritual, if you'll excuse me.</value>
+  </data>
+  <data name="Corsola_1" xml:space="preserve">
+    <value>Strange... I can't seems to move...</value>
+  </data>
+  <data name="Powwene_0" xml:space="preserve">
+    <value>The hole is encircling your back!</value>
+  </data>
+  <data name="Corsola_2" xml:space="preserve">
+    <value>Eh-xcuse me?</value>
+  </data>
+  <data name="Powwene_1" xml:space="preserve">
+    <value>Move!</value>
+  </data>
+  <data name="Corsola_3" xml:space="preserve">
+    <value>Wah! That hurt!</value>
+  </data>
+  <data name="Powwene_2" xml:space="preserve">
+    <value>I knew that! She was accurate. Down here, there is an entrance. Let's enter.</value>
+  </data>
+  <data name="Corsola_4" xml:space="preserve">
+    <value>You could have moved me somewhere by gently picking me up... </value>
+  </data>
+  <data name="Corsola_5" xml:space="preserve">
+    <value>....... But Thanks...</value>
+  </data>
+  <data name="Wooper_0" xml:space="preserve">
+    <value>What, you ask? How would you feel if you were held captive by a Drifloon?</value>
+  </data>
+  <data name="Igglybuff_0" xml:space="preserve">
+    <value>Ahahahaha! That was scary!! Hahahaha!</value>
+  </data>
+  <data name="Pichu_0" xml:space="preserve">
+    <value>There's a secret steps under Corsola. Drive her away to uncover the area.</value>
+  </data>
+  <data name="Pichu_1" xml:space="preserve">
+    <value>As I was saying...</value>
+  </data>
+  <data name="Pichu_2" xml:space="preserve">
+    <value>Maybe I shouldn't trust Drifloon at all.</value>
+  </data>
+  <data name="Chinchou_3" xml:space="preserve">
+    <value>Just... how heavy Corsola was?</value>
+  </data>
+  <data name="Mamel_0" xml:space="preserve">
+    <value>Um, You're {0}, right?</value>
+  </data>
+  <data name="Mamel_1" xml:space="preserve">
+    <value>I was just sent to this world for this reason but...</value>
+  </data>
+  <data name="Mamel_2" xml:space="preserve">
+    <value>How exactly did I get here?</value>
+  </data>
+  <data name="Togetic_Wipeout_0" xml:space="preserve">
+    <value>Oh, the indignity!</value>
+  </data>
+  <data name="Togetic_Wipeout_1" xml:space="preserve">
+    <value>You were vanquished in the dungeon. Be grateful that when you were rescued by the explorers.</value>
+  </data>
+  <data name="Togetic_Wipeout_2" xml:space="preserve">
+    <value>I suppose you should be more careful out there next time.</value>
+  </data>
+  <data name="Togetic_0" xml:space="preserve">
+    <value>How are you? Would you like to establish a secure point here??</value>
+  </data>
+  <data name="Togetic_1" xml:space="preserve">
+    <value>Please be patient while I secure this area for you.[pause=300]</value>
+  </data>
+  <data name="Togetic_2" xml:space="preserve">
+    <value>Done! You will be safe here the next time you die. I wish you luck out there.</value>
+  </data>
+  <data name="Powwene_3" xml:space="preserve">
+    <value>Hold on, we are unable to enter yet. We must locate the shrine someplace...</value>
+  </data>
+  <data name="Vulpix_0" xml:space="preserve">
+    <value>I'm just hawking like this in light of the fact that nobody's come to my shop for some time.</value>
+  </data>
+  <data name="Smoochum_0" xml:space="preserve">
+    <value>Think I almost drowned of my mind...! I wouldn't last longer without you.</value>
+  </data>
+  <data name="Wooper_1" xml:space="preserve">
+    <value>Smoochum is safe now, Thank goodness.</value>
+  </data>
+  <data name="Pichu_3" xml:space="preserve">
+    <value>Thank you for the help! We're now reunited!</value>
+  </data>
+  <data name="Smoochum_1" xml:space="preserve">
+    <value>"Where's Powwene?" you might ask. She had decided to investigate outside.</value>
+  </data>
+  <data name="Smoochum_2" xml:space="preserve">
+    <value>She promised to return safely to play with me, so I hope she does.</value>
+  </data>
+  <data name="Zigzagoon_0" xml:space="preserve">
+    <value>Agh! Detective, Quickly!</value>
+  </data>
+  <data name="Zigzagoon_1" xml:space="preserve">
+    <value>The Slowking's Rock is being taken by someone who intends to become an abusive ruler.</value>
+  </data>
+  <data name="Zigzagoon_2" xml:space="preserve">
+    <value>There is a reward for anyone who returns the crown, and bring Slowking that charlatan.</value>
+  </data>
+  <data name="Misdreavus_0" xml:space="preserve">
+    <value>What? I'm on my way!</value>
+  </data>
+  <data name="Misdreavus_1" xml:space="preserve">
+    <value>Sorry! Can't talk any further, I got a job to do!</value>
+  </data>
+  <data name="Shuppet_0" xml:space="preserve">
+    <value>Stay safe!</value>
+  </data>
+  <data name="Shuppet_1" xml:space="preserve">
+    <value>So... There's a favor I want to ask you...</value>
+  </data>
+  <data name="Shuppet_2" xml:space="preserve">
+    <value>Oh man... Just as I got into the most important part.</value>
+  </data>
+  <data name="Shop_Bag_Empty" xml:space="preserve">
+    <value>What a bummer, You have nothing to sell.</value>
+  </data>
+  <data name="Shop_Bag_Full" xml:space="preserve">
+    <value>Before you make a purchase, please clear some space, okay?</value>
+  </data>
+  <data name="Shop_Buy" xml:space="preserve">
+    <value>Hold on, Let me see what I got...! (You can use {0} to choose multiple items.)</value>
+  </data>
+  <data name="Shop_Buy_Complete" xml:space="preserve">
+    <value>I am grateful for your business!</value>
+  </data>
+  <data name="Shop_Buy_Empty" xml:space="preserve">
+    <value>Tomorrow, we'll replenish! Sorry!</value>
+  </data>
+  <data name="Shop_Buy_Multi" xml:space="preserve">
+    <value>Altogether, that comes to {0}. Is that OK?</value>
+  </data>
+  <data name="Shop_Buy_No_Money" xml:space="preserve">
+    <value>Come on, you can't fool me without my money.</value>
+  </data>
+  <data name="Shop_Buy_One" xml:space="preserve">
+    <value>That {1}? That will be {0}.</value>
+  </data>
+  <data name="Shop_Goodbye" xml:space="preserve">
+    <value>See you next time!</value>
+  </data>
+  <data name="Shop_Intro" xml:space="preserve">
+    <value>So, do you have any connection to my company?</value>
+  </data>
+  <data name="Shop_Intro_Return" xml:space="preserve">
+    <value>May I help you with anything else?</value>
+  </data>
+  <data name="Shop_Option_Buy" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="Shop_Option_Sell" xml:space="preserve">
+    <value>Sell</value>
+  </data>
+  <data name="Shop_Sell" xml:space="preserve">
+    <value>Oh... Uhh... What do you got? (You can use {0} to choose multiple items.)</value>
+  </data>
+  <data name="Shop_Sell_Complete" xml:space="preserve">
+    <value>Thanks!</value>
+  </data>
+  <data name="Shop_Sell_Multi" xml:space="preserve">
+    <value>I can pay {0} for everything, yes?</value>
+  </data>
+  <data name="Shop_Sell_One" xml:space="preserve">
+    <value>I can pay {0} for that {1}, yes?</value>
+  </data>
+  <data name="Buneary_0" xml:space="preserve">
+    <value>Many friends of mine called me a Coward...</value>
+  </data>
+  <data name="Buneary_1" xml:space="preserve">
+    <value>I'm no cower, I'll show them how coward I actually am!</value>
+  </data>
+</root>

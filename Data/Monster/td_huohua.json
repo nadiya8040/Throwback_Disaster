@@ -1,0 +1,24 @@
+﻿{
+"Version": "0.7.12.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Huohua",
+"LocalTexts": {}
+},
+"Released": false,
+"Comment": "",
+"Title": {
+"DefaultText": "",
+"LocalTexts": {}
+},
+"IndexNum": 1018,
+"EXPTable": "erratic",
+"SkillGroup1": "amorphous",
+"SkillGroup2": "amorphous",
+"JoinRate": 0,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": []
+}
+}
