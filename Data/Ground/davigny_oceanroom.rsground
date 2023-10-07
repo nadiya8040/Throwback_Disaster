@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.10.0",
+"Version": "0.7.17.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -20624,10 +20624,12 @@
 "AIEnabled": true,
 "EntName": "Purrloin",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 143,
 "Y": 84
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -20712,10 +20714,12 @@
 "AIEnabled": true,
 "EntName": "Patrat",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 266,
 "Y": 119
 },
+"serializationHeight": 0,
 "serializationDir": 7,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -20800,10 +20804,12 @@
 "AIEnabled": true,
 "EntName": "Phantump",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 140,
 "Y": 170
 },
+"serializationHeight": 0,
 "serializationDir": 2,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -20888,10 +20894,12 @@
 "AIEnabled": true,
 "EntName": "Powwene",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 242,
 "Y": 156
 },
+"serializationHeight": 0,
 "serializationDir": 7,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -20976,10 +20984,12 @@
 "AIEnabled": true,
 "EntName": "Smoochum",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 226,
 "Y": 144
 },
+"serializationHeight": 0,
 "serializationDir": 7,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -21064,6 +21074,7 @@
 "EntName": "Sign",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -21105,6 +21116,7 @@
 "EntName": "DungeonEntrance",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -21146,6 +21158,7 @@
 "EntName": "Exit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -21190,6 +21203,7 @@
 "EntName": "Entrance",
 "Direction": 3,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 316,
@@ -21202,6 +21216,7 @@
 "EntName": "DungeonExit",
 "Direction": 7,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 122,

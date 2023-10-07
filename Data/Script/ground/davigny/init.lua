@@ -67,6 +67,7 @@ function davigny.Enter(map)
     if SV.sidequest_buneary > 0 then
 	  GROUND:Hide("Buneary")
 	end
+	GROUND:Hide("ChildPark_Smoochum")
 	GROUND:Hide("Misdreavus")
 	GROUND:Hide("Shuppet")
   elseif SV.global_quest.StoryProgression < 18 then
@@ -646,7 +647,7 @@ end
 function davigny.Mamel_Action(chara, activator)
   GROUND:CharTurnToChar(chara,CH('PLAYER'))
   UI:SetSpeaker(chara)
-  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Mamel_0'], SV.playername))
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Mamel_0'], CH('PLAYER').Data.Nickname))
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['Mamel_1']))
   UI:SetSpeakerEmotion("Worried")
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['Mamel_2']))

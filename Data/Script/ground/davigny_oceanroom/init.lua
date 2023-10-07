@@ -105,7 +105,6 @@ function davigny_oceanroom.DungeonEntrance_Touch(obj, activator)
       GAME:FadeOut(false, 20)
       GAME:EnterDungeon('td_watertomb', 1, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, false, true)
     end
-	GAME:FadeOut(false, 20)
   end
 end
 
@@ -163,7 +162,6 @@ end
 
 function davigny_oceanroom.Sign_Action(obj, activator)
   UI:ResetSpeaker()
-  UI:SetSpeaker(obj)
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['Sign_0']))
 end
 

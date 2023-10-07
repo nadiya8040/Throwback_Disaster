@@ -182,7 +182,7 @@
     <value>Just... how heavy Corsola was?</value>
   </data>
   <data name="Mamel_0" xml:space="preserve">
-    <value>Um, You're {0}, right?</value>
+    <value>Um, You're [color=#009CFF]{0}[color], right?</value>
   </data>
   <data name="Mamel_1" xml:space="preserve">
     <value>I was just sent to this world for this reason but...</value>

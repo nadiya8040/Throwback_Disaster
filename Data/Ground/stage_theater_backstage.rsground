@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.10.0",
+"Version": "0.7.17.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -17973,10 +17973,12 @@
 "AIEnabled": true,
 "EntName": "ArenaHolder",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 292,
 "Y": 75
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -18061,10 +18063,12 @@
 "AIEnabled": true,
 "EntName": "TheaterHolder",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 100,
 "Y": 75
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -18149,6 +18153,7 @@
 "EntName": "Assembly",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -18190,6 +18195,7 @@
 "EntName": "Storage",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -18301,6 +18307,7 @@
 "EntName": "TEAMMATE_1",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -18384,6 +18391,7 @@
 "EntName": "TEAMMATE_2",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -18467,6 +18475,7 @@
 "EntName": "TEAMMATE_3",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -18550,6 +18559,7 @@
 "EntName": "TEAMMATE_4",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -18633,6 +18643,7 @@
 "EntName": "TEAMMATE_5",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -18716,6 +18727,7 @@
 "EntName": "TEAMMATE_6",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -18799,6 +18811,7 @@
 "EntName": "TEAMMATE_7",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0

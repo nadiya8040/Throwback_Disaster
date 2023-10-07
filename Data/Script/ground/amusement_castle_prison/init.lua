@@ -25,7 +25,7 @@ function amusement_castle_prison.Init(map)
   --This will fill the localized strings table automatically based on the locale the game is 
   -- currently in. You can use the MapStrings table after this line!
   MapStrings = COMMON.AutoLoadLocalizedStrings()
-  GROUND:RefreshPlayer()
+  COMMON.RespawnAllies()
 
 end
 
@@ -376,6 +376,41 @@ end
 
 function amusement_castle_prison.Block_2_Action(obj, activator)
   
+end
+
+function amusement_castle_prison.Teammate1_Action(chara, activator)
+  DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+  COMMON.GroundInteract(activator, chara, true)
+end
+
+function amusement_castle_prison.Teammate2_Action(chara, activator)
+  DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+  COMMON.GroundInteract(activator, chara, true)
+end
+
+function amusement_castle_prison.Teammate3_Action(chara, activator)
+  DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+  COMMON.GroundInteract(activator, chara, true)
+end
+
+function amusement_castle_prison.Teammate4_Action(chara, activator)
+  DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+  COMMON.GroundInteract(activator, chara, true)
+end
+
+function amusement_castle_prison.Teammate5_Action(chara, activator)
+  DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+  COMMON.GroundInteract(activator, chara, true)
+end
+
+function amusement_castle_prison.Teammate6_Action(chara, activator)
+  DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+  COMMON.GroundInteract(activator, chara, true)
+end
+
+function amusement_castle_prison.Teammate7_Action(chara, activator)
+  DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+  COMMON.GroundInteract(activator, chara, true)
 end
 
 return amusement_castle_prison

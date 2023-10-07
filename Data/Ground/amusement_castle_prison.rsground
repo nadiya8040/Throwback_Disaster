@@ -29463,7 +29463,7 @@
 "AssetName": "amusement_castle_prison",
 "Music": "",
 "EdgeView": 1,
-"NoSwitching": true,
+"NoSwitching": false,
 "ViewCenter": null,
 "ViewOffset": {
 "X": 0,
@@ -30305,7 +30305,596 @@
 }
 }
 ],
-"Spawners": [],
+"Spawners": [
+{
+"NPCName": "Teammate1",
+"NPCChar": {
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "missingno",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"Level": 0,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+"none"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+},
+"EntName": "TEAMMATE_1",
+"Direction": 2,
+"EntEnabled": true,
+"EntOrder": 0,
+"triggerType": 0,
+"EntityCallbacks": [
+0
+],
+"Collider": {
+"X": 461,
+"Y": 205,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"NPCName": "Teammate2",
+"NPCChar": {
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "missingno",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"Level": 0,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+"none"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+},
+"EntName": "TEAMMATE_2",
+"Direction": 2,
+"EntEnabled": true,
+"EntOrder": 0,
+"triggerType": 0,
+"EntityCallbacks": [
+0
+],
+"Collider": {
+"X": 461,
+"Y": 187,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"NPCName": "Teammate3",
+"NPCChar": {
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "missingno",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"Level": 0,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+"none"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+},
+"EntName": "TEAMMATE_3",
+"Direction": 2,
+"EntEnabled": true,
+"EntOrder": 0,
+"triggerType": 0,
+"EntityCallbacks": [
+0
+],
+"Collider": {
+"X": 461,
+"Y": 168,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"NPCName": "Teammate4",
+"NPCChar": {
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "missingno",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"Level": 0,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+"none"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+},
+"EntName": "TEAMMATE_4",
+"Direction": 2,
+"EntEnabled": true,
+"EntOrder": 0,
+"triggerType": 0,
+"EntityCallbacks": [
+0
+],
+"Collider": {
+"X": 461,
+"Y": 150,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"NPCName": "Teammate5",
+"NPCChar": {
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "missingno",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"Level": 0,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+"none"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+},
+"EntName": "TEAMMATE_5",
+"Direction": 2,
+"EntEnabled": true,
+"EntOrder": 0,
+"triggerType": 0,
+"EntityCallbacks": [
+0
+],
+"Collider": {
+"X": 461,
+"Y": 131,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"NPCName": "Teammate6",
+"NPCChar": {
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "missingno",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"Level": 0,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+"none"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+},
+"EntName": "TEAMMATE_6",
+"Direction": 2,
+"EntEnabled": true,
+"EntOrder": 0,
+"triggerType": 0,
+"EntityCallbacks": [
+0
+],
+"Collider": {
+"X": 461,
+"Y": 112,
+"Width": 16,
+"Height": 16
+}
+},
+{
+"NPCName": "Teammate7",
+"NPCChar": {
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "missingno",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"Level": 0,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+"none"
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "-1",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+},
+"EntName": "TEAMMATE_7",
+"Direction": 2,
+"EntEnabled": true,
+"EntOrder": 0,
+"triggerType": 0,
+"EntityCallbacks": [
+0
+],
+"Collider": {
+"X": 461,
+"Y": 94,
+"Width": 16,
+"Height": 16
+}
+}
+],
 "Markers": [
 {
 "EntName": "Entrance",

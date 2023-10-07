@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.10.0",
+"Version": "0.7.17.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -14538,7 +14538,7 @@
 "AssetName": "watertomb_ohchan",
 "Music": "NadEvent18. Suspicious.ogg",
 "EdgeView": 1,
-"NoSwitching": false,
+"NoSwitching": true,
 "ViewCenter": null,
 "ViewOffset": {
 "X": 0,
@@ -14597,10 +14597,12 @@
 "AIEnabled": true,
 "EntName": "OhChan",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 172,
 "Y": 51
 },
+"serializationHeight": 0,
 "serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -14685,10 +14687,12 @@
 "AIEnabled": true,
 "EntName": "Powwene",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 189,
 "Y": 73
 },
+"serializationHeight": 0,
 "serializationDir": 3,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -14773,6 +14777,7 @@
 "EntName": "Exit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -14817,6 +14822,7 @@
 "EntName": "Spawn",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 172,
