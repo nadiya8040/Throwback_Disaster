@@ -52,12 +52,12 @@ function amusement_park.Enter(map)
   end
   if SV.global_quest.StoryProgression == 7 then
     SOUND:PlayBGM("NadEvent25. Escape.ogg", true)
-	poww.Data.Nickname = 'Red Pow-Pow'
     GAME:CutsceneMode(true)
     local e1=CH("Enemy1")
 	local e2=CH("Enemy2")
 	local poww=CH("Powwene")
 	local player=CH("PLAYER")
+	poww.Data.Nickname = 'Red Pow-Pow'
 	e1.CollisionDisabled = true
 	e2.CollisionDisabled = true
 	GROUND:TeleportTo(player, 388, 818, Direction.Down)

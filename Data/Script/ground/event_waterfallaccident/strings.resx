@@ -59,10 +59,10 @@
     <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </resheader>
   <data name="Message_0" xml:space="preserve">
-    <value>You struggled to cross the bridge and almost fall down.</value>
+    <value>You struggled to cross the bridge and almost fell down.</value>
   </data>
   <data name="Espurr_0" xml:space="preserve">
-    <value>Wow, be careful; if one of us falls, we'll be screwed.</value>
+    <value>W-woah, be careful! if one of us falls, we'll be screwed.</value>
   </data>
   <data name="Minccino_0" xml:space="preserve">
     <value>Are you aware that there is a treasure atop this mountain?</value>
@@ -71,7 +71,7 @@
     <value>If that's the case, when we succeed, we would each receive a share.</value>
   </data>
   <data name="Minccino_1" xml:space="preserve">
-    <value>Hey, We just met {0}. At least have some respect.</value>
+    <value>Hey, we just met {0}. At least have some respect.</value>
   </data>
   <data name="Espurr_2" xml:space="preserve">
     <value>Right... Then, at that point, I'll think about giving that peep an offer, perhaps more than us.</value>
@@ -86,6 +86,6 @@
     <value>Ah!? {0}!!</value>
   </data>
   <data name="Minccino_3" xml:space="preserve">
-    <value>They simply tumble off into the opening... How are we going to enlighten Vitaro regarding this...</value>
+    <value>They simply tumbled down into the opening... How are we going to enlighten [color=#00FFFF]Vitaro[color] regarding this...</value>
   </data>
 </root>
