@@ -310,4 +310,25 @@
   <data name="Buneary_1" xml:space="preserve">
     <value>I'm no cower, I'll show them how coward I actually am!</value>
   </data>
+  <data name="Nuzleaf_0" xml:space="preserve">
+    <value>Psst, There's a secret I'd want to talk to you.</value>
+  </data>
+  <data name="Nuzleaf_1" xml:space="preserve">
+    <value>Some tough opponents on their arena can be recruitable too.</value>
+  </data>
+  <data name="Nuzleaf_2" xml:space="preserve">
+    <value>Or "Mid-Bosses" as they call it...</value>
+  </data>
+  <data name="Nuzleaf_3" xml:space="preserve">
+    <value>That's right, I'm not kidding! Just throw the apricorns at them...</value>
+  </data>
+  <data name="Nuzleaf_4" xml:space="preserve">
+    <value>and you'll have them carries you without problem! Oh yeah!</value>
+  </data>
+  <data name="Nuzleaf_5" xml:space="preserve">
+    <value>Hope this will help!</value>
+  </data>
+  <data name="Nuzleaf_6" xml:space="preserve">
+    <value>You can recruit "Mid-Bosses" on some dungeons. This will do the trick!</value>
+  </data>
 </root>

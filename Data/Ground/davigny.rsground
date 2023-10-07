@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.16.0",
+"Version": "0.7.17.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -31284,6 +31284,7 @@
 "AIEnabled": true,
 "EntName": "Chinchou",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 320,
 "Y": 120
@@ -31373,6 +31374,7 @@
 "AIEnabled": true,
 "EntName": "Corsola",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 72,
 "Y": 101
@@ -31462,6 +31464,7 @@
 "AIEnabled": true,
 "EntName": "Lapras",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 263,
 "Y": 51
@@ -31551,6 +31554,7 @@
 "AIEnabled": true,
 "EntName": "Mankey",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 86,
 "Y": 290
@@ -31640,6 +31644,7 @@
 "AIEnabled": true,
 "EntName": "Natu",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 271,
 "Y": 323
@@ -31729,6 +31734,7 @@
 "AIEnabled": true,
 "EntName": "Bayleef",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 221,
 "Y": 252
@@ -31818,6 +31824,7 @@
 "AIEnabled": true,
 "EntName": "Cradily",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 155,
 "Y": 361
@@ -31907,6 +31914,7 @@
 "AIEnabled": true,
 "EntName": "Machop",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 220,
 "Y": 460
@@ -31996,6 +32004,7 @@
 "AIEnabled": true,
 "EntName": "Priest",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 292,
 "Y": 243
@@ -32085,6 +32094,7 @@
 "AIEnabled": true,
 "EntName": "ChildPark_Igglybuff",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 184,
 "Y": 286
@@ -32174,6 +32184,7 @@
 "AIEnabled": true,
 "EntName": "ChildPark_Pichu",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 163,
 "Y": 299
@@ -32263,6 +32274,7 @@
 "AIEnabled": true,
 "EntName": "ChildPark_Wooper",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 191,
 "Y": 308
@@ -32352,6 +32364,7 @@
 "AIEnabled": true,
 "EntName": "Mamel",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 40,
 "Y": 172
@@ -32441,6 +32454,7 @@
 "AIEnabled": true,
 "EntName": "Powwene",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 101,
 "Y": 101
@@ -32530,6 +32544,7 @@
 "AIEnabled": true,
 "EntName": "Misdreavus",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 276,
 "Y": 405
@@ -32619,6 +32634,7 @@
 "AIEnabled": true,
 "EntName": "Shuppet",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 308,
 "Y": 405
@@ -32708,6 +32724,7 @@
 "AIEnabled": true,
 "EntName": "Vulpix",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 252,
 "Y": 343
@@ -32797,6 +32814,7 @@
 "AIEnabled": true,
 "EntName": "ChildPark_Smoochum",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 170,
 "Y": 317
@@ -32886,6 +32904,7 @@
 "AIEnabled": true,
 "EntName": "Zigzagoon",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 196,
 "Y": 484
@@ -32975,6 +32994,7 @@
 "AIEnabled": true,
 "EntName": "Buneary",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 208,
 "Y": 354
@@ -33057,6 +33077,96 @@
 "Width": 16,
 "Height": 16
 }
+},
+{
+"Direction": 0,
+"IsInteracting": false,
+"AIEnabled": true,
+"EntName": "Nuzleaf",
+"EntEnabled": true,
+"EntOrder": 0,
+"serializationLoc": {
+"X": 137,
+"Y": 160
+},
+"serializationHeight": 0,
+"serializationDir": 0,
+"triggerType": 1,
+"<AI>k__BackingField": null,
+"Data": {
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "nuzleaf",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"Level": 1,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+""
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+},
+"CollisionDisabled": false,
+"Collider": {
+"X": 0,
+"Y": 0,
+"Width": 16,
+"Height": 16
+}
 }
 ],
 "GroundObjects": [
@@ -33064,6 +33174,7 @@
 "EntName": "Assembly",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -33105,6 +33216,7 @@
 "EntName": "Storage",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -33146,6 +33258,7 @@
 "EntName": "SouthExit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -33187,6 +33300,7 @@
 "EntName": "WestExit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -33228,6 +33342,7 @@
 "EntName": "EastExit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -33269,6 +33384,7 @@
 "EntName": "MachopTalk",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 3,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -33310,6 +33426,7 @@
 "EntName": "Stairs_Underwater",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 3,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -33421,6 +33538,7 @@
 "EntName": "TEAMMATE_1",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -33504,6 +33622,7 @@
 "EntName": "TEAMMATE_2",
 "Direction": 1,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -33587,6 +33706,7 @@
 "EntName": "TEAMMATE_3",
 "Direction": 3,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -33670,6 +33790,7 @@
 "EntName": "TEAMMATE_4",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -33753,6 +33874,7 @@
 "EntName": "TEAMMATE_5",
 "Direction": 5,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -33836,6 +33958,7 @@
 "EntName": "TEAMMATE_6",
 "Direction": 6,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -33919,6 +34042,7 @@
 "EntName": "TEAMMATE_7",
 "Direction": 7,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -33936,6 +34060,7 @@
 "EntName": "Entrance",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 196,
@@ -33948,6 +34073,7 @@
 "EntName": "Priest_1",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 292,
@@ -33960,6 +34086,7 @@
 "EntName": "EntranceOut",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 72,

@@ -35,10 +35,10 @@ function td_throwback_land.ExitSegment(zone, result, rescue, segmentID, mapID)
   
   --first check for rescue flag; if we're in rescue mode then take a different path
   COMMON.ExitDungeonMissionCheck(zone.ID, segmentID)
-  if result ~= RogueEssence.Data.GameProgress.ResultType.Cleared then
-	SV.global_quest.BossWin = false
-  else
+  if result == RogueEssence.Data.GameProgress.ResultType.Cleared then
 	SV.global_quest.BossWin = true
+  else
+	SV.global_quest.BossWin = false
   end
   if segmentID == 0 then
     SV.global_quest.StoryProgression = 7

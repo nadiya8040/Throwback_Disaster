@@ -386,7 +386,7 @@ function davigny.Mankey_Action(chara, activator)
   GROUND:CharTurnToChar(chara,CH('PLAYER'))
   UI:SetSpeaker(chara)
   if SV.global_quest.StoryProgression == 8 then
-	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Mankey_0'], "Team Name"))
+	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Mankey_0'],GAME:GetTeamName()))
 	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Mankey_1']))
 	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Mankey_2']))
 	SOUND:PlayFanfare("Fanfare/Unlocked")
