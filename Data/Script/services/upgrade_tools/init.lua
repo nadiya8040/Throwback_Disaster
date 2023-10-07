@@ -41,7 +41,7 @@ function UpgradeTools:OnUpgrade()
   _DATA.Save.NextDest = _DATA.Start.Map
   
   local a=SV.global_quest.StoryProgression
-  if a > 17 and a < 20 then
+  if a > 17 and a < 21 then
     _DATA.Save.NextDest = RogueEssence.Dungeon.ZoneLoc('td_throwback_land',-1,10,0)
   elseif a > 2 then
 	_DATA.Save.NextDest = RogueEssence.Dungeon.ZoneLoc('td_throwback_land',-1,0,0)

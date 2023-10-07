@@ -333,11 +333,15 @@
 "stage_theater_backstage",
 "lot_emolga",
 "amusement_castle_prison",
+"amusement_castle_ruins",
 "driftchill",
 "morpond_cursed",
 "mpc_enslaved"
 ],
 "Maps": [
+[
+0
+],
 [
 0
 ]

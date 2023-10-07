@@ -44,6 +44,10 @@ function td_throwback_land.ExitSegment(zone, result, rescue, segmentID, mapID)
     SV.global_quest.StoryProgression = 7
     COMMON.EndSession(RogueEssence.Data.GameProgress.ResultType.Escaped, "td_throwback_land", -1, 0, 0)
   end
+  if segmentID == 1 then
+    SV.global_quest.StoryProgression = 21
+    COMMON.EndSession(RogueEssence.Data.GameProgress.ResultType.Escaped, "td_throwback_land", -1, 11, 0)
+  end
 end
 
 ---CURZONESCR.Rescued

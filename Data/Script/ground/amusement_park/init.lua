@@ -249,7 +249,11 @@ end
 function amusement_park.NorthExit_Touch(obj, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
   GAME:FadeOut(false, 20)
-  GAME:EnterGroundMap("amusement_castle", "Entrance")
+  if SV.global_quest.StoryProgression > 21 then
+    GAME:EnterGroundMap("amusement_castle_ruins", "Entrance")
+  else
+    GAME:EnterGroundMap("amusement_castle", "Entrance")
+  end
 end
 
 function amusement_park.SouthExit_Touch(obj, activator)

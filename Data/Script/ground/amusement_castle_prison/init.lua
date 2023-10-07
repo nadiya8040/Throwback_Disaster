@@ -128,7 +128,7 @@ end
 function amusement_castle_prison.MusicChange()
   if SV.global_quest.StoryProgression < 21 then
     SOUND:PlayBGM("NadEvent07. Deception.ogg", true)
-  elseif SV.global_quest.StoryProgression < 24 then
+  elseif SV.global_quest.StoryProgression < 99 then
     SOUND:PlayBGM("Nad120. Trouble at Night.ogg", true)
   else
     SOUND:PlayBGM("Nad119. Royal Palace.ogg", true)
@@ -349,17 +349,22 @@ function amusement_castle_prison.Noctowl_Action(chara, activator)
 end
 
 function amusement_castle_prison.Exit_Touch(obj, activator)
-  UI:ResetSpeaker()
-  UI:ChoiceMenuYesNo(STRINGS:Format(MapStrings['Message_2']), false)
-  UI:WaitForChoice()
-  ch = UI:ChoiceResult()
-  if ch then
+  if SV.global_quest.StoryProgression > 21 then
     GAME:FadeOut(false,20)
-	if SV.global_quest.StoryProgression == 20 then
-	  
-	else
-	  GAME:EnterGroundMap("amusement_castle", "EntrancefromDungeon")
-	end
+	GAME:EnterGroundMap("amusement_castle_ruins", "EntrancefromDungeon")
+  else
+    UI:ResetSpeaker()
+    UI:ChoiceMenuYesNo(STRINGS:Format(MapStrings['Message_2']), false)
+    UI:WaitForChoice()
+    ch = UI:ChoiceResult()
+    if ch then
+      GAME:FadeOut(false,20)
+	  if SV.global_quest.StoryProgression == 20 then
+		GAME:EnterDungeon('td_throwback_land', 1, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, false, false)
+	  else
+	    GAME:EnterGroundMap("amusement_castle", "EntrancefromDungeon")
+	  end
+    end
   end
 end
 

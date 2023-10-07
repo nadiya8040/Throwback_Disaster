@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.12.0",
+"Version": "0.7.17.0",
 "Object": {
 "$type": "RogueEssence.Dungeon.Map, RogueEssence",
 "Name": {
@@ -122,19 +122,31 @@
 "$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
 "AttackPattern": 4,
 "PositionPattern": 2,
-"IQ": 253
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
 },
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
-"IQ": 253
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
-"IQ": 253
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
-"IQ": 253
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 }
 ]
 },
@@ -175,10 +187,10 @@
 "Level": 20,
 "EXP": 0,
 "MaxHPBonus": 110,
-"AtkBonus": 0,
-"DefBonus": 0,
-"MAtkBonus": 0,
-"MDefBonus": 0,
+"AtkBonus": 10,
+"DefBonus": 5,
+"MAtkBonus": 10,
+"MDefBonus": 5,
 "SpeedBonus": 0,
 "BaseSkills": [
 {
@@ -347,19 +359,31 @@
 "$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
 "AttackPattern": 4,
 "PositionPattern": 2,
-"IQ": 253
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 4
 },
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
-"IQ": 253
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
-"IQ": 253
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
-"IQ": 253
+"IQ": 253,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 }
 ]
 },
@@ -400,9 +424,9 @@
 "Level": 15,
 "EXP": 0,
 "MaxHPBonus": 55,
-"AtkBonus": 0,
+"AtkBonus": 5,
 "DefBonus": 0,
-"MAtkBonus": 0,
+"MAtkBonus": 5,
 "MDefBonus": 0,
 "SpeedBonus": 0,
 "BaseSkills": [
@@ -566,6 +590,7 @@
 "de": "Gegner angreifen",
 "es": "Ve a por ellos",
 "pt": "Persigam inimigos",
+"it": "All'attacco!",
 "ko": "적을 알아서 쫓아라",
 "zh-hans": "主动出击"
 }
@@ -579,19 +604,31 @@
 "$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
 "AttackPattern": 4,
 "PositionPattern": 2,
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 }
 ]
 },
@@ -632,7 +669,7 @@
 "Level": 12,
 "EXP": 0,
 "MaxHPBonus": 30,
-"AtkBonus": 0,
+"AtkBonus": 5,
 "DefBonus": 0,
 "MAtkBonus": 0,
 "MDefBonus": 0,
@@ -798,6 +835,7 @@
 "de": "Gegner angreifen",
 "es": "Ve a por ellos",
 "pt": "Persigam inimigos",
+"it": "All'attacco!",
 "ko": "적을 알아서 쫓아라",
 "zh-hans": "主动出击"
 }
@@ -811,19 +849,31 @@
 "$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
 "AttackPattern": 4,
 "PositionPattern": 2,
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 }
 ]
 },
@@ -864,7 +914,7 @@
 "Level": 12,
 "EXP": 0,
 "MaxHPBonus": 30,
-"AtkBonus": 0,
+"AtkBonus": 5,
 "DefBonus": 0,
 "MAtkBonus": 0,
 "MDefBonus": 0,
@@ -1030,6 +1080,7 @@
 "de": "Gegner angreifen",
 "es": "Ve a por ellos",
 "pt": "Persigam inimigos",
+"it": "All'attacco!",
 "ko": "적을 알아서 쫓아라",
 "zh-hans": "主动出击"
 }
@@ -1043,19 +1094,31 @@
 "$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
 "AttackPattern": 4,
 "PositionPattern": 2,
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 }
 ]
 },
@@ -1096,7 +1159,7 @@
 "Level": 12,
 "EXP": 0,
 "MaxHPBonus": 30,
-"AtkBonus": 0,
+"AtkBonus": 5,
 "DefBonus": 0,
 "MAtkBonus": 0,
 "MDefBonus": 0,
@@ -1262,6 +1325,7 @@
 "de": "Gegner angreifen",
 "es": "Ve a por ellos",
 "pt": "Persigam inimigos",
+"it": "All'attacco!",
 "ko": "적을 알아서 쫓아라",
 "zh-hans": "主动出击"
 }
@@ -1275,19 +1339,31 @@
 "$type": "PMDC.Dungeon.AttackFoesPlan, PMDC",
 "AttackPattern": 4,
 "PositionPattern": 2,
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.FollowLeaderPlan, PMDC",
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
-"IQ": 413
+"IQ": 413,
+"AttackRange": 0,
+"StatusRange": 0,
+"SelfStatusRange": 0
 }
 ]
 },
@@ -1328,7 +1404,7 @@
 "Level": 12,
 "EXP": 0,
 "MaxHPBonus": 30,
-"AtkBonus": 0,
+"AtkBonus": 5,
 "DefBonus": 0,
 "MAtkBonus": 0,
 "MDefBonus": 0,
@@ -1425,7 +1501,19 @@
 "OnStatusRemoves": [],
 "OnMapStatusAdds": [],
 "OnMapStatusRemoves": [],
-"OnMapStarts": [],
+"OnMapStarts": [
+{
+"Key": {
+"str": [
+0
+]
+},
+"Value": {
+"$type": "PMDC.Dungeon.BeginBattleEvent, PMDC",
+"CheckClearStatus": "map_clear_check"
+}
+}
+],
 "OnTurnStarts": [],
 "OnTurnEnds": [],
 "OnMapTurnEnds": [],
@@ -2559,6 +2647,14 @@
 }
 ]
 ]
+}
+],
+"Decorations": [
+{
+"Name": "New Deco",
+"Layer": 0,
+"Visible": true,
+"Anims": []
 }
 ],
 "Tiles": [

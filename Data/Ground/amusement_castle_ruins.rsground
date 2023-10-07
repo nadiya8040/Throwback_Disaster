@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.13.0",
+"Version": "0.7.17.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -34982,16 +34982,18 @@
 "Visible": true,
 "MapChars": [
 {
-"Direction": 2,
+"Direction": 4,
 "IsInteracting": false,
 "AIEnabled": true,
 "EntName": "Gapori",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
-"X": 271,
-"Y": 184
+"X": 269,
+"Y": 364
 },
-"serializationDir": 2,
+"serializationHeight": 0,
+"serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
 "Data": {
@@ -35063,23 +35065,25 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 271,
+"Y": 184,
 "Width": 16,
 "Height": 16
 }
 },
 {
-"Direction": 6,
+"Direction": 4,
 "IsInteracting": false,
 "AIEnabled": true,
 "EntName": "Kecleon",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
-"X": 219,
-"Y": 184
+"X": 269,
+"Y": 345
 },
-"serializationDir": 6,
+"serializationHeight": 0,
+"serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
 "Data": {
@@ -35151,23 +35155,25 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 229,
-"Y": 183,
+"X": 219,
+"Y": 184,
 "Width": 16,
 "Height": 16
 }
 },
 {
-"Direction": 0,
+"Direction": 3,
 "IsInteracting": false,
 "AIEnabled": true,
 "EntName": "Zigzagoon",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
-"X": 232,
-"Y": 149
+"X": 321,
+"Y": 214
 },
-"serializationDir": 0,
+"serializationHeight": 0,
+"serializationDir": 3,
 "triggerType": 1,
 "<AI>k__BackingField": null,
 "Data": {
@@ -35239,23 +35245,25 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 321,
+"Y": 214,
 "Width": 16,
 "Height": 16
 }
 },
 {
-"Direction": 0,
+"Direction": 3,
 "IsInteracting": false,
 "AIEnabled": true,
 "EntName": "Misdreavus",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
-"X": 258,
-"Y": 147
+"X": 338,
+"Y": 202
 },
-"serializationDir": 0,
+"serializationHeight": 0,
+"serializationDir": 3,
 "triggerType": 1,
 "<AI>k__BackingField": null,
 "Data": {
@@ -35327,8 +35335,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 339,
+"Y": 201,
 "Width": 16,
 "Height": 16
 }
@@ -35339,10 +35347,12 @@
 "AIEnabled": true,
 "EntName": "Bellossom",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 109,
 "Y": 314
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35427,10 +35437,12 @@
 "AIEnabled": true,
 "EntName": "Wigglytuff",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 290,
 "Y": 271
 },
+"serializationHeight": 0,
 "serializationDir": 3,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35503,8 +35515,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 290,
+"Y": 271,
 "Width": 16,
 "Height": 16
 }
@@ -35515,10 +35527,12 @@
 "AIEnabled": true,
 "EntName": "Scyther",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 56,
 "Y": 98
 },
+"serializationHeight": 0,
 "serializationDir": 5,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35591,8 +35605,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 56,
+"Y": 98,
 "Width": 16,
 "Height": 16
 }
@@ -35603,10 +35617,12 @@
 "AIEnabled": true,
 "EntName": "Mantine",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 89,
 "Y": 74
 },
+"serializationHeight": 0,
 "serializationDir": 1,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35679,8 +35695,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 89,
+"Y": 74,
 "Width": 16,
 "Height": 16
 }
@@ -35691,6 +35707,7 @@
 "EntName": "DungeonStair",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -35732,6 +35749,7 @@
 "EntName": "Exit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -35776,6 +35794,7 @@
 "EntName": "Entrance",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 244,
@@ -35788,6 +35807,7 @@
 "EntName": "EntrancefromDungeon",
 "Direction": 3,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 316,

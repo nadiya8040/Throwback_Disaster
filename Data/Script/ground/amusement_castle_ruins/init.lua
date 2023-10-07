@@ -34,7 +34,102 @@ end
 --Engine callback function
 function amusement_castle_ruins.Enter(map)
 
-  GAME:FadeIn(20)
+  if SV.global_quest.StoryProgression == 21 then
+    SV.global_quest.StoryProgression = 22
+	GAME:CutsceneMode(true)
+	local kecleon = CH("Kecleon")
+	local gapori = CH("Gapori")
+	local misdreavus = CH("Misdreavus")
+	local zigzagoon = CH("Zigzagoon")
+	GROUND:Hide("Zigzagoon")
+	GROUND:Hide("Misdreavus")
+	GROUND:TeleportTo(CH('PLAYER'), 246, 157, Direction.Up)
+	GAME:FadeIn(120)
+	SV.checkpoint = 
+	{
+	  Zone    = 'td_throwback_land', Segment  = -1,
+	  Map  = 6, Entry  = 1
+	}
+	GROUND:MoveToPosition(kecleon, 231, 195, false, 2)
+	GROUND:CharAnimateTurn(kecleon, Direction.Up, 4, true)
+	GROUND:CharAnimateTurn(CH("PLAYER"), Direction.Down, 4, false)
+	UI:SetSpeaker(kecleon)
+    UI:SetSpeakerEmotion("Sigh")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Kecleon_0']))
+	GROUND:MoveToPosition(gapori, 263, 191, false, 2)
+	GROUND:CharAnimateTurn(gapori, Direction.Up, 4, true)
+	UI:SetSpeaker(gapori)
+    UI:SetSpeakerEmotion("Sigh")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Gapori_0']))
+	GROUND:CharAnimateTurn(kecleon, Direction.Right, 4, false)
+	UI:SetSpeaker(kecleon)
+    UI:SetSpeakerEmotion("Sad")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Kecleon_1']))
+	GROUND:CharAnimateTurn(gapori, Direction.Left, 4, true)
+	UI:SetSpeaker(gapori)
+    UI:SetSpeakerEmotion("Sad")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Gapori_1']))
+	SOUND:PlayBGM("Nad72. Phantom and a Rose.ogg", true)
+	GROUND:Unhide("Zigzagoon")
+	GROUND:Unhide("Misdreavus")
+	GROUND:MoveToPosition(misdreavus, 291, 184, true, 4)
+	GROUND:CharAnimateTurn(misdreavus, Direction.Left, 4, false)
+	GROUND:MoveToPosition(zigzagoon, 291, 203, true, 4)
+	GROUND:CharAnimateTurn(zigzagoon, Direction.Left, 4, false)
+	GROUND:CharAnimateTurn(gapori, Direction.Right, 4, false)
+	UI:SetSpeaker(misdreavus)
+    UI:SetSpeakerEmotion("Pain")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Misdreavus_0']))
+	UI:SetSpeaker(kecleon)
+    UI:SetSpeakerEmotion("Surprised")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Kecleon_2']))
+	UI:SetSpeaker(misdreavus)
+    UI:SetSpeakerEmotion("Angry")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Misdreavus_1']))
+	UI:SetSpeaker(kecleon)
+    UI:SetSpeakerEmotion("Surprised")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Kecleon_3']))
+	UI:SetSpeaker(zigzagoon)
+    UI:SetSpeakerEmotion("Worried")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Zigzagoon_0']))
+	UI:SetSpeaker(gapori)
+    UI:SetSpeakerEmotion("Sad")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Gapori_2']))
+	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Gapori_3']))
+	UI:SetSpeaker(zigzagoon)
+    UI:SetSpeakerEmotion("Pain")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Zigzagoon_1']))
+	UI:SetSpeaker(misdreavus)
+    UI:SetSpeakerEmotion("Determined")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Misdreavus_2']))
+	local coro1 = TASK:BranchCoroutine(function() amusement_castle_ruins.leaving(misdreavus) end)
+	local coro2 = TASK:BranchCoroutine(function() amusement_castle_ruins.leaving(zigzagoon) end)
+	TASK:JoinCoroutines({coro1,coro2})
+	GROUND:RemoveCharacter("Misdreavus")
+	GROUND:RemoveCharacter("Zigzagoon")
+	SOUND:PlayBGM("Nad120. Trouble at Night.ogg", true)
+	GROUND:MoveToPosition(gapori, 301, 122, false, 2)
+	GROUND:CharAnimateTurn(kecleon, Direction.Up, 4, false)
+	UI:SetSpeaker(kecleon)
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Kecleon_4']))
+	COMMON.GiftItemFull(CH('PLAYER'), RogueEssence.Dungeon.InvItem("evo_kings_rock"),false,false)
+	UI:SetSpeaker(kecleon)
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Kecleon_5']))
+	GROUND:MoveToPosition(kecleon, 244, 366, false, 3)
+	GROUND:RemoveCharacter("Kecleon")
+	COMMONEX.PointIncrease(15)
+	GAME:CutsceneMode(false)
+  else
+    if SV.global_quest.StoryProgression > 22 then
+	  GROUND:RemoveCharacter("Gapori")
+	else
+	  GROUND:TeleportTo(CH('Gapori'), 301, 122, Direction.UpRight)
+	end
+	GROUND:RemoveCharacter("Misdreavus")
+	GROUND:RemoveCharacter("Zigzagoon")
+	GROUND:RemoveCharacter("Kecleon")
+	GAME:FadeIn(20)
+  end
 
 end
 
@@ -71,6 +166,53 @@ end
 -- Entities Callbacks
 -------------------------------
 
+function amusement_castle_ruins.leaving(character)
+  GROUND:MoveToPosition(character, 243, 379, false, 2)
+end
+
+function amusement_castle_ruins.Mantine_Action(chara, activator)
+  UI:SetSpeaker(chara)
+  UI:SetSpeakerEmotion("Worried")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Mantine_0']))
+end
+
+function amusement_castle_ruins.Scyther_Action(chara, activator)
+  UI:SetSpeaker(chara)
+  UI:SetSpeakerEmotion("Angry")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Scyther_0']))
+end
+
+function amusement_castle_ruins.Wigglytuff_Action(chara, activator)
+  UI:SetSpeaker(chara)
+  GROUND:CharTurnToChar(chara,CH('PLAYER'))
+  UI:SetSpeakerEmotion("Worried")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Wigglytuff_0']))
+  UI:SetSpeakerEmotion("Surprised")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Wigglytuff_1']))
+end
+
+function amusement_castle_ruins.Gapori_Action(chara, activator)
+  UI:SetSpeaker(chara)
+  UI:SetSpeakerEmotion("Sad")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Gapori_4']))
+end
+
+function amusement_castle_ruins.Bellossom_Action(chara, activator)
+  GROUND:CharTurnToChar(chara,CH('PLAYER'))
+  UI:SetSpeaker(chara)
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Bellossom_0']))
+  UI:SetSpeakerEmotion("Joyous")
+  UI:BeginChoiceMenu(STRINGS:Format(MapStrings['Bellossom_1']),
+  {STRINGS:Format(MapStrings['Answer_1']),
+  STRINGS:Format(MapStrings['Answer_2']),
+  STRINGS:Format(MapStrings['Answer_3'])}, 1, 4)
+  UI:WaitForChoice()
+  UI:SetSpeakerEmotion("Happy")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Bellossom_2']))
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Bellossom_3']))
+	
+end
+
 function amusement_castle_ruins.Exit_Touch(obj, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
   GAME:FadeOut(false, 20)
@@ -79,6 +221,8 @@ end
 
 function amusement_castle_ruins.DungeonStair_Touch(obj, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+  GAME:FadeOut(false, 20)
+  GAME:EnterGroundMap("amusement_castle_prison", "Entrance")
 end
 
 return amusement_castle_ruins

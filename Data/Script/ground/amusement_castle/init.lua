@@ -143,10 +143,47 @@ function amusement_castle.Enter(map)
   
   if SV.global_quest.StoryProgression == 19 then
     SV.global_quest.StoryProgression = 20
-	--W.I.P.
+	GAME:CutsceneMode(true)
+	GAME:FadeIn(20)
+	CH("PLAYER").CollisionDisabled = true
+	GROUND:MoveToPosition(CH("PLAYER"), 246, 184, false, 2)
+	GROUND:CharAnimateTurn(CH('PLAYER'), Direction.Up, 2, false)
+	local nidoqueen = CH("Nidoqueen")
+	local kecleon = CH("Kecleon")
+	local gapori = CH("Gapori")
+	gapori.CollisionDisabled = true
+	kecleon.CollisionDisabled = true
+	UI:SetSpeaker(nidoqueen)
+    UI:SetSpeakerEmotion("Angry")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nidoqueen_3']))
+	UI:SetSpeaker(kecleon)
+    UI:SetSpeakerEmotion("Angry")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Kecleon_0']))
+	UI:SetSpeaker(gapori)
+    UI:SetSpeakerEmotion("Angry")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Gapori_0']))
+	UI:SetSpeaker(nidoqueen)
+    UI:SetSpeakerEmotion("Determined")
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nidoqueen_4']))
+	GROUND:MoveInDirection(nidoqueen, Direction.Down, 12, false, 2)
+	GROUND:CharSetAnim(nidoqueen, "Attack", false)
+	SOUND:PlayBattleSE("DUN_Attack")
+	GAME:WaitFrames(15)
+	local coro1 = TASK:BranchCoroutine(function() amusement_castle.aaaaaa(gapori) end)
+	local coro2 = TASK:BranchCoroutine(function() amusement_castle.aaaaaa(kecleon) end)
+	SOUND:PlayBattleSE("TB_Meme_Scream_Gapori")
+	TASK:JoinCoroutines({coro1,coro2})
+	GROUND:RemoveCharacter("Gapori")
+	GROUND:RemoveCharacter("Kecleon")
+	GROUND:MoveInDirection(nidoqueen, Direction.Up, 12, false, 2)
+	GROUND:CharAnimateTurn(nidoqueen, Direction.Down, 2, true)
+	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nidoqueen_5']))
+	GAME:FadeOut(false,20)
+	GAME:EnterDungeon('td_throwback_land', 1, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, false, false)
+	GAME:CutsceneMode(false)
+  else
+    GAME:FadeIn(20)
   end
-  
-  GAME:FadeIn(20)
 
 end
 
@@ -185,6 +222,12 @@ end
 -------------------------------
 -- Entities Callbacks
 -------------------------------
+
+function amusement_castle.aaaaaa(character)
+  GROUND:CharSetEmote(character, "shock", 1)
+  SOUND:PlayBattleSE("EVT_Emote_Shock")
+  GROUND:AnimateInDirection(character, "Hurt", Direction.Up, Direction.Down, 60, 2, 4)
+end
 
 function amusement_castle.InvasionEvent_Touch(obj, activator)
   GAME:UnlockDungeon("td_fieldgarden")

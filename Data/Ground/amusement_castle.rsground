@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.12.0",
+"Version": "0.7.17.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -34987,10 +34987,12 @@
 "AIEnabled": true,
 "EntName": "Pichu",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 350,
 "Y": 362
 },
+"serializationHeight": 0,
 "serializationDir": 6,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35075,10 +35077,12 @@
 "AIEnabled": true,
 "EntName": "Drifloon",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 373,
 "Y": 363
 },
+"serializationHeight": 0,
 "serializationDir": 2,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35163,10 +35167,12 @@
 "AIEnabled": true,
 "EntName": "Slowking",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 244,
 "Y": 93
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35251,10 +35257,12 @@
 "AIEnabled": true,
 "EntName": "Slowpoke_L",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 213,
 "Y": 122
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35339,10 +35347,12 @@
 "AIEnabled": true,
 "EntName": "Slowpoke_R",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 274,
 "Y": 122
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35427,10 +35437,12 @@
 "AIEnabled": true,
 "EntName": "Vitaro",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 268,
 "Y": 376
 },
+"serializationHeight": 0,
 "serializationDir": 1,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35515,10 +35527,12 @@
 "AIEnabled": true,
 "EntName": "Espurr",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 229,
 "Y": 369
 },
+"serializationHeight": 0,
 "serializationDir": 7,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35603,10 +35617,12 @@
 "AIEnabled": true,
 "EntName": "Minccino",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 211,
 "Y": 384
 },
+"serializationHeight": 0,
 "serializationDir": 7,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35691,10 +35707,12 @@
 "AIEnabled": true,
 "EntName": "Powwene",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 330,
 "Y": 343
 },
+"serializationHeight": 0,
 "serializationDir": 7,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35779,10 +35797,12 @@
 "AIEnabled": true,
 "EntName": "Nidoqueen",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 244,
 "Y": 109
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35867,10 +35887,12 @@
 "AIEnabled": true,
 "EntName": "Nidoran_F_2",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 264,
 "Y": 197
 },
+"serializationHeight": 0,
 "serializationDir": 3,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -35955,10 +35977,12 @@
 "AIEnabled": true,
 "EntName": "Nidoran_F_1",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 224,
 "Y": 197
 },
+"serializationHeight": 0,
 "serializationDir": 5,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -36043,10 +36067,12 @@
 "AIEnabled": true,
 "EntName": "Nidoran_M_2",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 317,
 "Y": 123
 },
+"serializationHeight": 0,
 "serializationDir": 1,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -36131,10 +36157,12 @@
 "AIEnabled": true,
 "EntName": "Nidoran_M_1",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 174,
 "Y": 123
 },
+"serializationHeight": 0,
 "serializationDir": 7,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -36219,10 +36247,12 @@
 "AIEnabled": true,
 "EntName": "Nidorino",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 271,
 "Y": 104
 },
+"serializationHeight": 0,
 "serializationDir": 1,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -36307,10 +36337,12 @@
 "AIEnabled": true,
 "EntName": "Misdreavus",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 261,
 "Y": 168
 },
+"serializationHeight": 0,
 "serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -36395,10 +36427,12 @@
 "AIEnabled": true,
 "EntName": "Zigzagoon",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 227,
 "Y": 168
 },
+"serializationHeight": 0,
 "serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -36478,16 +36512,18 @@
 }
 },
 {
-"Direction": 3,
+"Direction": 4,
 "IsInteracting": false,
 "AIEnabled": true,
 "EntName": "Kecleon",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
-"X": 336,
-"Y": 196
+"X": 256,
+"Y": 150
 },
-"serializationDir": 3,
+"serializationHeight": 0,
+"serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
 "Data": {
@@ -36559,23 +36595,25 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 336,
+"Y": 196,
 "Width": 16,
 "Height": 16
 }
 },
 {
-"Direction": 3,
+"Direction": 4,
 "IsInteracting": false,
 "AIEnabled": true,
 "EntName": "Gapori",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
-"X": 314,
-"Y": 217
+"X": 233,
+"Y": 150
 },
-"serializationDir": 3,
+"serializationHeight": 0,
+"serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
 "Data": {
@@ -36647,8 +36685,8 @@
 },
 "CollisionDisabled": false,
 "Collider": {
-"X": 0,
-"Y": 0,
+"X": 233,
+"Y": 150,
 "Width": 16,
 "Height": 16
 }
@@ -36659,6 +36697,7 @@
 "EntName": "DungeonStair",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -36700,6 +36739,7 @@
 "EntName": "Exit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -36741,6 +36781,7 @@
 "EntName": "InvasionEvent",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -36785,6 +36826,7 @@
 "EntName": "Entrance",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 244,
@@ -36797,6 +36839,7 @@
 "EntName": "EntrancefromDungeon",
 "Direction": 3,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 316,
