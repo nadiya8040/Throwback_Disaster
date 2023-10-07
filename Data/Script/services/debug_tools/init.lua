@@ -81,7 +81,7 @@ function DebugTools:OnNewGame()
 	
 	_DATA.Save.ActiveTeam:SetRank("roguelocke")
 	if not GAME:InRogueMode() then
-      _DATA.Save.ActiveTeam.Bank = 1000
+      _DATA.Save.ActiveTeam.Bank = 0
 	end
 	SV.General.Starter = _DATA.Save.ActiveTeam.Players[0].BaseForm
   else
