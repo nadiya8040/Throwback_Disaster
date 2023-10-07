@@ -35,6 +35,7 @@ end
 function amusement_park.Enter(map)
   GROUND:Hide("Nadiya")
   GROUND:Hide("Missy")
+  GROUND:Hide("Gapori")
   if SV.sidequest.quest00 < 2 then
     GROUND:Hide("Bayleef_Davi")
   end
@@ -44,7 +45,7 @@ function amusement_park.Enter(map)
   if SV.global_quest.StoryProgression < 8 or SV.global_quest.StoryProgression > 9 then
     GROUND:Hide("Powwene")
   end
-  if SV.global_quest.StoryProgression < 19 then
+  if SV.global_quest.StoryProgression < 23 then
     GROUND:Hide("Alolan Raichu")
   end
   if SV.sidequest.quest03 > 1 and SV.sidequest.quest03 < 4 then
@@ -245,6 +246,34 @@ function amusement_park.Sign_Box_Action(obj, activator)
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['Sign_Box']))
 end
 
+function amusement_park.ARaichu_Action(chara, activator)
+  local gapori = CH("Gapori")
+  UI:SetSpeaker(chara)
+  UI:SetSpeakerEmotion("Happy")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['ARaichu_0']))
+  UI:SetSpeakerEmotion("Confused")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['ARaichu_1']))
+  UI:SetSpeaker(gapori)
+  UI:SetSpeakerEmotion("Determined")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Gapori_4']))
+  UI:SetSpeaker(chara)
+  UI:SetSpeakerEmotion("Determined")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['ARaichu_2']))
+  UI:SetSpeaker(gapori)
+  UI:SetSpeakerEmotion("Determined")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Gapori_5']))
+  UI:SetSpeaker(chara)
+  UI:SetSpeakerEmotion("Angry")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['ARaichu_3']))
+  UI:SetSpeaker(gapori)
+  UI:SetSpeakerEmotion("Determined")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Gapori_6']))
+  UI:SetSpeaker(chara)
+  UI:SetSpeakerEmotion("Angry")
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['ARaichu_4']))
+  UI:ResetSpeaker()
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Message_6']))
+end
 
 function amusement_park.NorthExit_Touch(obj, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine

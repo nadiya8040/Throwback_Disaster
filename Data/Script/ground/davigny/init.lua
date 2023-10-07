@@ -63,10 +63,11 @@ function davigny.Enter(map)
 	GROUND:Hide("Vulpix")
   end
   
+  if SV.global_quest.StoryProgression < 22 or SV.sidequest_buneary > 0 then
+    GROUND:Hide("Buneary")
+  end
+  
   if SV.global_quest.StoryProgression < 17 then
-    if SV.sidequest_buneary > 0 then
-	  GROUND:Hide("Buneary")
-	end
 	GROUND:Hide("ChildPark_Smoochum")
 	GROUND:Hide("Misdreavus")
 	GROUND:Hide("Shuppet")

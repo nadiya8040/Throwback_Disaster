@@ -5,9 +5,11 @@ nadiya8040
 Aseprite
 Audacity 3.0.2
 
+<Debugger>
+Palika
+
 <Assistant>
 Shitpost Sunkern
-Palika
 Trio-
 
 <Other Mods Sourced>

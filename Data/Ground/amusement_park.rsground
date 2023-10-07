@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.12.0",
+"Version": "0.7.17.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -103353,10 +103353,12 @@
 "AIEnabled": true,
 "EntName": "Vitaro",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 413,
 "Y": 483
 },
+"serializationHeight": 0,
 "serializationDir": 2,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -103441,10 +103443,12 @@
 "AIEnabled": true,
 "EntName": "Hattrem",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 134,
 "Y": 204
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -103529,10 +103533,12 @@
 "AIEnabled": true,
 "EntName": "Grumpig",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 501,
 "Y": 290
 },
+"serializationHeight": 0,
 "serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -103617,10 +103623,12 @@
 "AIEnabled": true,
 "EntName": "Spoink_L",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 491,
 "Y": 261
 },
+"serializationHeight": 0,
 "serializationDir": 7,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -103705,10 +103713,12 @@
 "AIEnabled": true,
 "EntName": "Spoink_R",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 513,
 "Y": 266
 },
+"serializationHeight": 0,
 "serializationDir": 3,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -103793,10 +103803,12 @@
 "AIEnabled": true,
 "EntName": "Aron",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 265,
 "Y": 446
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -103881,10 +103893,12 @@
 "AIEnabled": true,
 "EntName": "Teddiursa",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 507,
 "Y": 537
 },
+"serializationHeight": 0,
 "serializationDir": 7,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -103969,10 +103983,12 @@
 "AIEnabled": true,
 "EntName": "Torchic",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 529,
 "Y": 556
 },
+"serializationHeight": 0,
 "serializationDir": 3,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -104057,10 +104073,12 @@
 "AIEnabled": true,
 "EntName": "Flaaffy",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 132,
 "Y": 660
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -104145,10 +104163,12 @@
 "AIEnabled": true,
 "EntName": "Slakoth",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 424,
 "Y": 150
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -104233,10 +104253,12 @@
 "AIEnabled": true,
 "EntName": "Beldum",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 317,
 "Y": 195
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -104321,10 +104343,12 @@
 "AIEnabled": true,
 "EntName": "Girafarig",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 551,
 "Y": 719
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -104409,10 +104433,12 @@
 "AIEnabled": true,
 "EntName": "Nadiya",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 364,
 "Y": 843
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -104497,10 +104523,12 @@
 "AIEnabled": true,
 "EntName": "Missy",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 412,
 "Y": 844
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -104585,10 +104613,12 @@
 "AIEnabled": true,
 "EntName": "Powwene",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 316,
 "Y": 316
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -104673,10 +104703,12 @@
 "AIEnabled": true,
 "EntName": "Enemy1",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 380,
 "Y": 866
 },
+"serializationHeight": 0,
 "serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -104761,10 +104793,12 @@
 "AIEnabled": true,
 "EntName": "Enemy2",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 396,
 "Y": 866
 },
+"serializationHeight": 0,
 "serializationDir": 4,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -104849,10 +104883,12 @@
 "AIEnabled": true,
 "EntName": "Cradily_Davi",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 121,
 "Y": 90
 },
+"serializationHeight": 0,
 "serializationDir": 3,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -104937,10 +104973,12 @@
 "AIEnabled": true,
 "EntName": "Bayleef_Davi",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 474,
 "Y": 282
 },
+"serializationHeight": 0,
 "serializationDir": 6,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -105025,10 +105063,12 @@
 "AIEnabled": true,
 "EntName": "Hoppip",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 454,
 "Y": 435
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -105113,10 +105153,12 @@
 "AIEnabled": true,
 "EntName": "Alolan Raichu",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 96,
 "Y": 361
 },
+"serializationHeight": 0,
 "serializationDir": 2,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -105201,10 +105243,12 @@
 "AIEnabled": true,
 "EntName": "Sandslash",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 219,
 "Y": 778
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -105282,6 +105326,96 @@
 "Width": 16,
 "Height": 16
 }
+},
+{
+"Direction": 0,
+"IsInteracting": false,
+"AIEnabled": true,
+"EntName": "Gapori",
+"EntEnabled": true,
+"EntOrder": 0,
+"serializationLoc": {
+"X": 718,
+"Y": 30
+},
+"serializationHeight": 0,
+"serializationDir": 0,
+"triggerType": 1,
+"<AI>k__BackingField": null,
+"Data": {
+"Nickname": "",
+"OriginalUUID": "",
+"OriginalTeam": "",
+"BaseForm": {
+"Species": "tdchar_gapori",
+"Form": 0,
+"Skin": "normal",
+"Gender": 0
+},
+"Level": 1,
+"EXP": 0,
+"MaxHPBonus": 0,
+"AtkBonus": 0,
+"DefBonus": 0,
+"MAtkBonus": 0,
+"MDefBonus": 0,
+"SpeedBonus": 0,
+"BaseSkills": [
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+},
+{
+"SkillNum": "",
+"Charges": 0
+}
+],
+"BaseIntrinsics": [
+""
+],
+"Relearnables": {},
+"Discriminator": 0,
+"MetAt": "",
+"MetLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"DefeatAt": "",
+"DefeatLoc": {
+"ID": "",
+"StructID": {
+"Segment": -1,
+"ID": -1
+},
+"EntryPoint": -1
+},
+"IsFounder": false,
+"IsPartner": false,
+"NameLocked": false,
+"IsFavorite": false,
+"Unrecruitable": false,
+"ActionEvents": [],
+"ScriptVars": null
+},
+"CollisionDisabled": false,
+"Collider": {
+"X": 718,
+"Y": 30,
+"Width": 16,
+"Height": 16
+}
 }
 ],
 "GroundObjects": [
@@ -105289,6 +105423,7 @@
 "EntName": "NorthExit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -105330,6 +105465,7 @@
 "EntName": "SouthExit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 2,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -105371,6 +105507,7 @@
 "EntName": "Sign_Crafting",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -105412,6 +105549,7 @@
 "EntName": "Sign_Activities",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -105453,6 +105591,7 @@
 "EntName": "Sign_Museum",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -105494,6 +105633,7 @@
 "EntName": "Sign_Shop",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -105535,6 +105675,7 @@
 "EntName": "Sign_Box",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 1,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -105646,6 +105787,7 @@
 "EntName": "TEAMMATE_1",
 "Direction": 7,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -105729,6 +105871,7 @@
 "EntName": "TEAMMATE_2",
 "Direction": 1,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -105812,6 +105955,7 @@
 "EntName": "TEAMMATE_3",
 "Direction": 7,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -105895,6 +106039,7 @@
 "EntName": "TEAMMATE_4",
 "Direction": 1,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -105978,6 +106123,7 @@
 "EntName": "TEAMMATE_5",
 "Direction": 7,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -106061,6 +106207,7 @@
 "EntName": "TEAMMATE_6",
 "Direction": 1,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -106144,6 +106291,7 @@
 "EntName": "TEAMMATE_7",
 "Direction": 7,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "EntityCallbacks": [
 0
@@ -106161,6 +106309,7 @@
 "EntName": "Center",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 388,
@@ -106173,6 +106322,7 @@
 "EntName": "entrance_north",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 388,
@@ -106185,6 +106335,7 @@
 "EntName": "entrance_south",
 "Direction": 4,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 388,

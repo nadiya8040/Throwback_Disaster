@@ -46,7 +46,11 @@ function td_throwback_land.ExitSegment(zone, result, rescue, segmentID, mapID)
   end
   if segmentID == 1 then
     SV.global_quest.StoryProgression = 21
-    COMMON.EndSession(RogueEssence.Data.GameProgress.ResultType.Escaped, "td_throwback_land", -1, 11, 0)
+	if result == RogueEssence.Data.GameProgress.ResultType.Cleared then
+      COMMON.EndSession(result, "td_throwback_land", -1, 11, 0)
+	else
+	  COMMON.EndSession(result, SV.checkpoint.Zone, SV.checkpoint.Segment, SV.checkpoint.Map, SV.checkpoint.Entry)
+	end
   end
   SV.wipedout = false
 end
