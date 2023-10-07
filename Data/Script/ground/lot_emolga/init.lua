@@ -41,6 +41,7 @@ function lot_emolga.Enter(map)
 	GROUND:TeleportTo(CH("Hoppip"), 210, 98, Direction.Left)
   end
   if SV.lot_emolga == nil then
+    SV.hiddensidequest.celebi = 0
     SV.lot_emolga =
 	{
 	  greeted = false,

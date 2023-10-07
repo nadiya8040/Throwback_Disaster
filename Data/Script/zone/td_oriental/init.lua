@@ -41,14 +41,18 @@ function td_oriental.ExitSegment(zone, result, rescue, segmentID, mapID)
 	COMMON.EndDungeonDay(result, SV.checkpoint.Zone, SV.checkpoint.Segment, SV.checkpoint.Map, SV.checkpoint.Entry)
   else
 	if segmentID == 0 then
-	  if SV.hiddensidequest.celebi > 0 and SV.hiddensidequest.celebi < 3 then
-		if SV.hiddensidequest.celebi == 2 then
-		  GAME:ContinueDungeon('td_oriental', 1, 0, 0)
-		else
-		  GAME:EnterGroundMap("event_oriental_celebi", "StartPlayer")
-		end
+	  if SV.hiddensidequest.celebi = nil then
+	    COMMON.EndDungeonDay(result, 'td_throwback_land', -1, 2, 2)
 	  else
-		COMMON.EndDungeonDay(result, 'td_throwback_land', -1, 2, 2)
+	  if SV.hiddensidequest.celebi > 0 and SV.hiddensidequest.celebi < 3 then
+		  if SV.hiddensidequest.celebi == 2 then
+		    GAME:ContinueDungeon('td_oriental', 1, 0, 0)
+		  else
+		    GAME:EnterGroundMap("event_oriental_celebi", "StartPlayer")
+		  end
+	  else
+		  COMMON.EndDungeonDay(result, 'td_throwback_land', -1, 2, 2)
+	    end
 	  end
 	else
 	  if segmentID == 1 then

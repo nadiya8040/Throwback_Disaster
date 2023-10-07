@@ -127,7 +127,6 @@ SV.guest_members =
 
 SV.hiddensidequest =
 {
-  celebi = 0
 }
 
 SV.sidequest =
