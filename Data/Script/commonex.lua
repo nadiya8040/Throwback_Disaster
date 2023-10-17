@@ -59,9 +59,9 @@ function COMMONEX.SpecialCharJoined(member,name,fanfare)
   if fanfare == 1 then
     SOUND:PlayFanfare("Fanfare/Friendship")
   elseif fanfare == 2 then
-    SOUND:PlayFanfare("Fanfare/Friendship_Guest")
+    SOUND:PlayFanfare("Fanfare/JoinTeam")
   end
-  if fanfare > 0 then
+  if fanfare == 2 then
     UI:SetCenter(true)
     UI:WaitShowTimedDialogue(STRINGS:Format("{0} joined the party.", name), 150)
     UI:SetCenter(false)
@@ -152,4 +152,10 @@ function COMMONEX.SmoothRemove(char_)
   GROUND:Unhide(char_)
   GAME:WaitFrames(2)
   GROUND:RemoveCharacter(char_)
+end
+
+function COMMONEX.BossRest()
+  UI:WaitShowDialogue(STRINGS:Format("You grew tired from the boss fight, and went to sleep in safe place for hours."))
+  SOUND:PlayFanfare("Fanfare/GoodNight")
+  GAME:WaitFrames(277)
 end
