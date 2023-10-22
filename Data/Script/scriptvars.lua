@@ -43,6 +43,7 @@ SV.checkpoint =
   Map  = 0, Entry  = 0
 }
 
+
 SV.adventure = 
 {
   Thief    = false
@@ -119,7 +120,7 @@ SV.members_in_party =
 
 SV.wipedout = false
 SV.emolgadiary = 0
-SV.sidequest_buneary = 1
+SV.sidequest_buneary = 0
 
 SV.guest_members =
 {
@@ -326,9 +327,12 @@ SV.forest_camp =
 SV.cliff_camp = 
 {
   ExpositionComplete  = false,
-  TeamRetreatIntro = false,
-  TeamUndergrowthIntro = false,
-  RivalEarlyIntro = false
+  TeamUndergrowthIntro = false
+}
+
+SV.team_retreat =
+{
+  Intro = false
 }
 
 --TODO
@@ -398,6 +402,27 @@ SV.supply_corps =
   ManagerCycle = 0
 }
 
+SV.family = 
+{
+  SisterActiveDays = 0,
+  -- 0 = Not rescued, 1 = Rescued, 2 = In Town
+  Sister = 0,
+  MotherActiveDays = 0,
+  -- 0 = Not rescued, 1 = Rescued, 2 = In Town
+  Mother = 0,
+  FatherActiveDays = 0,
+  -- 0 = Not rescued, 1 = Rescued, 2 = In Town
+  Father = 0,
+  SonActiveDays = 0,
+  -- 0 = Not rescued, 1 = Rescued, 2 = In Town
+  Son = 0,
+  GrandmaActiveDays = 0,
+  -- 0 = Not rescued, 1 = Rescued, 2 = In Town
+  Grandma = 0,
+  PetActiveDays = 0,
+  -- 0 = Not rescued, 1 = Rescued, 2 = In Town
+  Pet = 0
+}
 SV.canyon_camp = 
 {
   ExpositionComplete  = false,

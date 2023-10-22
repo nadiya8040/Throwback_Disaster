@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.14.0",
+"Version": "0.7.18.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -22463,7 +22463,7 @@
 "AssetName": "tutorial",
 "Music": "NadEvent01. Instructions.ogg",
 "EdgeView": 1,
-"NoSwitching": false,
+"NoSwitching": true,
 "ViewCenter": null,
 "ViewOffset": {
 "X": 0,
@@ -22490,6 +22490,7 @@
 "EntName": "Spawn",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 184,

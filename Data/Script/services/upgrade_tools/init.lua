@@ -191,6 +191,10 @@ function UpgradeTools:OnUpgrade()
     SV.forest_camp.SnorlaxPhase = 0
   end
 
+  if SV.forest_camp.TeamRetreatIntro == nil then
+    SV.forest_camp.TeamRetreatIntro = false
+  end
+
   if SV.guildmaster_summit.BossPhase == nil then
     SV.guildmaster_summit.BossPhase = 0
 	SV.guildmaster_summit.GameComplete = false
@@ -223,6 +227,39 @@ function UpgradeTools:OnUpgrade()
 	  CarryCycle = 0,
 	  DeliverCycle = 0,
 	  ManagerCycle = 0
+	}
+  end
+
+  if SV.team_retreat == nil then
+	SV.team_retreat =
+	{
+      Intro = false
+	}
+  end
+
+  if SV.team_retreat == nil then
+	SV.team_retreat =
+	{
+      Intro = false
+	}
+  end
+
+  
+  if SV.family == nil then
+	SV.family =
+	{
+	  SisterActiveDays = 0,
+	  Sister = 0,
+	  MotherActiveDays = 0,
+	  Mother = 0,
+	  FatherActiveDays = 0,
+	  Father = 0,
+	  SonActiveDays = 0,
+	  Son = 0,
+	  GrandmaActiveDays = 0,
+	  Grandma = 0,
+	  PetActiveDays = 0,
+	  Pet = 0
 	}
   end
   

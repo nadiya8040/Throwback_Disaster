@@ -58,4 +58,64 @@
   <resheader name="writer">
     <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </resheader>
+  <data name="String_0" xml:space="preserve">
+    <value>邪恶的生物攻击你！</value>
+  </data>
+  <data name="Mikon_000" xml:space="preserve">
+    <value>嘿..嘿 你。那边。</value>
+  </data>
+  <data name="Mikon_001" xml:space="preserve">
+    <value>你一定是一个新的冒险家，对吧？</value>
+  </data>
+  <data name="Mikon_002_A" xml:space="preserve">
+    <value>我很高兴听到。听着。</value>
+  </data>
+  <data name="Mikon_002_B_1" xml:space="preserve">
+    <value>我不是六- .........</value>
+  </data>
+  <data name="Mikon_002_B_2" xml:space="preserve">
+    <value>..... 也许我是它的进化前....</value>
+  </data>
+  <data name="Mikon_002_B_3" xml:space="preserve">
+    <value>无论如何，听我的话...</value>
+  </data>
+  <data name="Mikon_003" xml:space="preserve">
+    <value>世界正面临被黑暗吞噬的危险。</value>
+  </data>
+  <data name="Mikon_004" xml:space="preserve">
+    <value>在光线丢失时，对应将不再存在。</value>
+  </data>
+  <data name="Mikon_005" xml:space="preserve">
+    <value>各种怪物被怀疑属于黑暗。</value>
+  </data>
+  <data name="Mikon_006" xml:space="preserve">
+    <value>带上野生怪物和一些杏子来赢得你的友谊。你是你唯一的希望。</value>
+  </data>
+  <data name="Mikon_007" xml:space="preserve">
+    <value>在这里，请允许我把我的礼物赐给你。</value>
+  </data>
+  <data name="String_1" xml:space="preserve">
+    <value>灯光环绕着你。</value>
+  </data>
+  <data name="Mikon_008" xml:space="preserve">
+    <value>踩在我身后的那块神奇的瓷砖上，你就可以走出去。新的冒险家，你的任务已经开始。</value>
+  </data>
+  <data name="Mikon_009" xml:space="preserve">
+    <value>现在走吧，世界取决于你的勇敢和勇气。</value>
+  </data>
+  <data name="Mikon_010" xml:space="preserve">
+    <value>一旦您满足要求，我期待着亲自祝贺您。</value>
+  </data>
+  <data name="String_3" xml:space="preserve">
+    <value>它消失了，是时候继续了。您的转发会期待您的下一次体验。</value>
+  </data>
+  <data name="Answer_A" xml:space="preserve">
+    <value>没错。</value>
+  </data>
+  <data name="Answer_B" xml:space="preserve">
+    <value>你是小...六尾？</value>
+  </data>
+  <data name="String_4" xml:space="preserve">
+    <value>回到那里很危险。</value>
+  </data>
 </root>

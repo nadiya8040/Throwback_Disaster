@@ -58,4 +58,19 @@
   <resheader name="writer">
     <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </resheader>
+  <data name="String_0" xml:space="preserve">
+    <value>啊啊啊啊啊啊!!!!!</value>
+  </data>
+  <data name="String_1" xml:space="preserve">
+    <value>多么重大的影响！你可能不小心进入了洞穴，因为你没有看到那里的洞。</value>
+  </data>
+  <data name="String_2" xml:space="preserve">
+    <value>所以，看起来你应该继续环顾洞穴寻找出路。</value>
+  </data>
+  <data name="String_3" xml:space="preserve">
+    <value>你深呼一口气，自信地走上楼梯。</value>
+  </data>
+  <data name="String_4" xml:space="preserve">
+    <value>准备好了吗？</value>
+  </data>
 </root>

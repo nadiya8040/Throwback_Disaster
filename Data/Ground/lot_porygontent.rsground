@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.10.0",
+"Version": "0.7.18.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -4408,10 +4408,12 @@
 "AIEnabled": true,
 "EntName": "Porygon-Z",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 76,
 "Y": 52
 },
+"serializationHeight": 0,
 "serializationDir": 0,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -4496,10 +4498,12 @@
 "AIEnabled": true,
 "EntName": "Gapori",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 101,
 "Y": 101
 },
+"serializationHeight": 0,
 "serializationDir": 3,
 "triggerType": 1,
 "<AI>k__BackingField": null,
@@ -4586,6 +4590,7 @@
 "EntName": "Player",
 "Direction": 2,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "Collider": {
 "X": 38,

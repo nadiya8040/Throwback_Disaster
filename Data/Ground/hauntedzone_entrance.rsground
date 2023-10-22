@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.16.0",
+"Version": "0.7.18.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
@@ -21106,6 +21106,7 @@
 "AIEnabled": true,
 "EntName": "Buneary",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 172,
 "Y": 150
@@ -21195,6 +21196,7 @@
 "AIEnabled": true,
 "EntName": "Chespin",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 245,
 "Y": 168
@@ -21284,6 +21286,7 @@
 "AIEnabled": true,
 "EntName": "Litwick",
 "EntEnabled": true,
+"EntOrder": 0,
 "serializationLoc": {
 "X": 266,
 "Y": 179
@@ -21373,6 +21376,7 @@
 "EntName": "Sign",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -21414,6 +21418,7 @@
 "EntName": "Entrance",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",
@@ -21455,6 +21460,7 @@
 "EntName": "Exit",
 "Direction": 0,
 "EntEnabled": true,
+"EntOrder": 0,
 "triggerType": 0,
 "ObjectAnim": {
 "$type": "RogueEssence.Content.ObjAnimData, RogueEssence",

@@ -305,6 +305,17 @@ function COMMON.GiftItemFull(player, receive_item, fanfare, force_storage)
   UI:ResetSpeaker()
 end
 
+function COMMON.GiftKeyItem(player, item_name)
+  SOUND:PlayFanfare("Fanfare/Treasure")
+  UI:ResetSpeaker(false)
+  UI:SetCenter(true)
+  
+  -- item names are expected to be passed in without formatting
+  -- the standard color for event items is always green
+  UI:WaitShowDialogue(STRINGS:Format(RogueEssence.StringKey("DLG_RECEIVE_ITEM"):ToLocal(), player:GetDisplayName(), string.format("[color=#00FF00]%s[color]", item_name)))
+  UI:SetCenter(false)
+  UI:ResetSpeaker()
+end
 
 function COMMON.JoinTeamWithFanfare(recruit, from_dungeon)
   if from_dungeon then
@@ -654,13 +665,11 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
   	    end
       end
   	
-  	  if not valid_quote then
-        -- PrintInfo("Rejected "..chosen_quote)
+  	  if not valid_quote then				   
   	    table.remove(running_pool, chosen_idx)
   	    chosen_quote = ""
   	  end
-    end
-    -- PrintInfo("Selected "..chosen_quote)
+    end			   
 	
 	local oldDir = target.CharDir
     DUNGEON:CharTurnToChar(target, chara)
@@ -843,13 +852,11 @@ function COMMON.GroundInteract(chara, target)
 	
     chosen_quote = string.gsub(chosen_quote, "%[hero%]", chara:GetDisplayName())
     
-	if not valid_quote then
-      -- PrintInfo("Rejected "..chosen_quote)
+	if not valid_quote then						 
 	  table.remove(running_pool, chosen_idx)
 	  chosen_quote = ""
 	end
-  end
-  -- PrintInfo("Selected "..chosen_quote)
+  end					 
   
   
   UI:WaitShowDialogue(STRINGS:Format(chosen_quote))
@@ -953,7 +960,6 @@ end
 
 function COMMON.EnterDungeonMissionCheck(zoneId, segmentID)
   for name, mission in pairs(SV.missions.Missions) do
-    PrintInfo("Checking Mission: "..tostring(name))
 	if mission.Complete == COMMON.MISSION_INCOMPLETE and zoneId == mission.DestZone and segmentID == mission.DestSegment then
 	  if mission.Type == 1 then -- escort
 		
@@ -978,19 +984,15 @@ end
 
 function COMMON.ExitDungeonMissionCheck(result, zoneId, segmentID)
   -- clear any escorts from party
-  PrintInfo("Checking Exit Escort")
   local party = GAME:GetPlayerGuestTable()
   for i, p in ipairs(party) do
     local e_tbl = LTBL(p)
 	if e_tbl ~= nil then
-	  PrintInfo("Checking table "..e_tbl.Escort)
 	  local mission = SV.missions.Missions[e_tbl.Escort]
 	  if mission ~= nil then
-	    PrintInfo("Checking mission")
 	    if mission.Type == COMMON.MISSION_TYPE_ESCORT then
 	      _DUNGEON:RemoveChar(p)
 	    elseif mission.Type == COMMON.MISSION_TYPE_ESCORT_OUT then
-		  PrintInfo("Exiting with Escort")
 		  if p.Dead == false then
 		    if result == RogueEssence.Data.GameProgress.ResultType.Cleared then
 		      mission.Complete = COMMON.MISSION_COMPLETE
@@ -1008,11 +1010,9 @@ end
 
 function COMMON.FindMissionEscort(missionId)
   local escort = nil
-  PrintInfo("Name: "..missionId)
   local party = GAME:GetPlayerGuestTable()
   for i, p in ipairs(party) do
     local e_tbl = LTBL(p)
-	PrintInfo("Escort: "..e_tbl.Escort)
 	if e_tbl.Escort == missionId then
 	  escort = p
 	  break
