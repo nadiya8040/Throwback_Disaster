@@ -100,7 +100,7 @@ end
 
 function overworld.Dungeon_0_Touch(obj, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
-  local dungeon_entrances = {'td_newforest','td_oriental','td_theknapsack','td_childhood_park'}
+  local dungeon_entrances = {'td_pinkandblue','td_newforest','td_oriental','td_theknapsack','td_childhood_park'}
   local ground_entrances = {}
   COMMON.ShowDestinationMenu(dungeon_entrances,ground_entrances)
 end

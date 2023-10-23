@@ -409,4 +409,7 @@
   <data name="Hoppip_3" xml:space="preserve">
     <value>Job's done!</value>
   </data>
+  <data name="Message_7" xml:space="preserve">
+    <value>That poor Mimikyu is busy sewing their cloth, Best to leave them alone...</value>
+  </data>
 </root>

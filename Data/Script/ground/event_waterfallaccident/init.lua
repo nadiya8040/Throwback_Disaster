@@ -25,6 +25,7 @@ function event_waterfallaccident.Init(map)
   --This will fill the localized strings table automatically based on the locale the game is 
   -- currently in. You can use the MapStrings table after this line!
   MapStrings = COMMON.AutoLoadLocalizedStrings()
+  _DATA.Save.ActiveTeam:SetRank("none")
 
 end
 

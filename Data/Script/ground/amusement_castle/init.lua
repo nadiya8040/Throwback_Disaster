@@ -26,7 +26,7 @@ function amusement_castle.Init(map)
   --This will fill the localized strings table automatically based on the locale the game is 
   -- currently in. You can use the MapStrings table after this line!
   MapStrings = COMMON.AutoLoadLocalizedStrings()
-  COMMON.RespawnAllies()
+  GROUND:RefreshPlayer()
 
 end
 

@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.17.0",
+"Version": "0.7.18.2",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
 "nad_crystal_cave": {
@@ -14,7 +14,7 @@
 "BagRestrict": -1,
 "BagSize": -1,
 "Rescues": 0,
-"CountedFloors": 0,
+"CountedFloors": 5,
 "Rogue": 0,
 "Grounds": [
 "crystal_cave_entrance",
@@ -34,7 +34,7 @@
 ]
 ],
 "Name": {
-"DefaultText": "Crystal Cave",
+"DefaultText": "Crystalline Grotto",
 "LocalTexts": {}
 },
 "Released": true,
@@ -743,6 +743,39 @@
 }
 },
 "Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"td_pinkandblue": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"NoEXP": false,
+"Level": 3,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 6,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5
+]
+],
+"Name": {
+"DefaultText": "Pink & Blue",
+"LocalTexts": {}
+},
+"Released": true,
 "Comment": "",
 "SortOrder": 0
 }

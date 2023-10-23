@@ -49,6 +49,14 @@ function UpgradeTools:OnUpgrade()
 	_DATA.Save.NextDest = RogueEssence.Dungeon.ZoneLoc('nad_crystal_cave',-1,0,0)
   end
   
+  if SV.NuzleafTalk == nil then
+    SV.NuzleafTalk = false
+  end
+  
+--[[---------------------------------------------------------------
+    Rest of them are not from Throwback Disaster
+---------------------------------------------------------------]]
+  
   if SV.test_grounds.DemoComplete == nil then
     SV.test_grounds =
     {

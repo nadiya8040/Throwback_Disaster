@@ -36,6 +36,9 @@ function amusement_park.Enter(map)
   GROUND:Hide("Nadiya")
   GROUND:Hide("Missy")
   GROUND:Hide("Gapori")
+  if SV.global_quest.StoryProgression > 5 then
+    GROUND:Hide("Mimikyu")
+  end
   if SV.sidequest.quest00 < 2 then
     GROUND:Hide("Bayleef_Davi")
   end
@@ -106,6 +109,7 @@ function amusement_park.Enter(map)
 	poww.Data.Nickname = 'Powwene'
 	UI:SetSpeaker(poww)
 	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Powwene_3']))
+	COMMONEX.CharacterIntroduction('Introduction_Powwene')
 	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Powwene_4']))
 	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Powwene_5']))
 	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Powwene_6']))
@@ -362,6 +366,11 @@ function amusement_park.Powwene_Action(chara, activator)
   GROUND:CharTurnToChar(chara,CH('PLAYER'))
   UI:SetSpeaker(chara)
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['Powwene_12']))
+end
+
+function amusement_park.Mimikyu_Action(chara, activator)
+  UI:ResetSpeaker()
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Message_7']))
 end
 
 function amusement_park.Beldum_Action(chara, activator)

@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.16.0",
+"Version": "0.7.18.2",
 "Object": {
 "$type": "RogueEssence.Dungeon.Map, RogueEssence",
 "Name": {
@@ -17,6 +17,9 @@
 {
 "Element1": "psychic",
 "Element2": "grass",
+"TurnWait": 0,
+"TiersUsed": 0,
+"TurnUsed": false,
 "movementSpeed": 0,
 "dead": false,
 "serializationLoc": {
@@ -104,9 +107,6 @@
 "MaxFullness": 100,
 "StatusEffects": {},
 "MustHitNext": false,
-"TurnWait": 0,
-"TiersUsed": 0,
-"TurnUsed": false,
 "EXPMarked": false,
 "Tactic": {
 "Name": {
@@ -132,21 +132,21 @@
 "IQ": 253,
 "AttackRange": 0,
 "StatusRange": 0,
-"SelfStatusRange": 4
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.ExplorePlan, PMDC",
 "IQ": 253,
 "AttackRange": 0,
 "StatusRange": 0,
-"SelfStatusRange": 4
+"SelfStatusRange": 0
 },
 {
 "$type": "PMDC.Dungeon.WaitPlan, PMDC",
 "IQ": 253,
 "AttackRange": 0,
 "StatusRange": 0,
-"SelfStatusRange": 4
+"SelfStatusRange": 0
 }
 ]
 },
@@ -187,9 +187,9 @@
 "Level": 10,
 "EXP": 0,
 "MaxHPBonus": 100,
-"AtkBonus": 0,
+"AtkBonus": -4,
 "DefBonus": 0,
-"MAtkBonus": 0,
+"MAtkBonus": -4,
 "MDefBonus": 0,
 "SpeedBonus": 0,
 "BaseSkills": [
@@ -363,8 +363,7 @@
 "CurrentOrder": {
 "TurnTier": 0,
 "Faction": 0,
-"TurnIndex": 0,
-"SkipAll": false
+"TurnIndex": 0
 },
 "TurnToChar": []
 },

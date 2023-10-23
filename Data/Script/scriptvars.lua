@@ -121,6 +121,7 @@ SV.members_in_party =
 SV.wipedout = false
 SV.emolgadiary = 0
 SV.sidequest_buneary = 0
+SV.NuzleafTalk = false
 
 SV.guest_members =
 {

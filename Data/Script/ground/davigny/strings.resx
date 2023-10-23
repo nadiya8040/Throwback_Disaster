@@ -331,4 +331,13 @@
   <data name="Nuzleaf_6" xml:space="preserve">
     <value>You can recruit "Mid-Bosses" on some dungeons. This will do the trick!</value>
   </data>
+  <data name="Nuzleaf_7" xml:space="preserve">
+    <value>Oh, by the way, New Forest in the Middle, have two strong mons. I don't know much but...</value>
+  </data>
+  <data name="Nuzleaf_8" xml:space="preserve">
+    <value>All I know is watch out for [color=#A8B820]Bug[color] and [color=#C03028]Fighting[color] attacks! So...</value>
+  </data>
+  <data name="Nuzleaf_9" xml:space="preserve">
+    <value>You better get Psychic, Fairy and Flying Friends, Here's a key to the dungeon called [color=#00FFFF]Pink and Blue[color] for that case.</value>
+  </data>
 </root>

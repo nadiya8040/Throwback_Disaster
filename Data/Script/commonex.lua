@@ -35,6 +35,12 @@ function COMMONEX.SidequestAccept(questname)
   UI:SetCenter(false)
 end
 
+function COMMONEX.CharacterIntroduction(bg)
+  UI:WaitShowBG(bg, 3, 120)
+  GAME:WaitFrames(600)
+  UI:WaitHideBG(120)
+end
+
 function COMMONEX.SidequestCleared(questname)
   SOUND:PlayFanfare("Fanfare/QuestCleared")
   UI:ResetSpeaker()

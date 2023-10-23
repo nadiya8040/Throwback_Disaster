@@ -215,6 +215,26 @@ function davigny.Storage_Action(obj, activator)
   COMMON:ShowTeamStorageMenu()
 end
 
+function davigny.Nuzleaf_Action(chara, activator)
+  DEBUG.EnableDbgCoro() --Enable debugging this coroutine
+  GROUND:CharTurnToChar(chara,player)
+  UI:SetSpeaker(chara)
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nuzleaf_0']))
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nuzleaf_1']))
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nuzleaf_2']))
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nuzleaf_3']))
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nuzleaf_4']))
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nuzleaf_5']))
+  UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nuzleaf_6']))
+  if SV.NuzleafTalk == false then
+    UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nuzleaf_7']))
+	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nuzleaf_8']))
+	UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nuzleaf_9']))
+	SV.NuzleafTalk = true
+	GAME:UnlockDungeon('td_pinkandblue')
+  end
+end
+
 function davigny.SouthExit_Touch(obj, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
   GAME:FadeOut(false, 20)
