@@ -25,6 +25,7 @@ function crystal_cave_entrance.Init(map)
   --This will fill the localized strings table automatically based on the locale the game is 
   -- currently in. You can use the MapStrings table after this line!
   MapStrings = COMMON.AutoLoadLocalizedStrings()
+  SV.wipedout = false
 
 end
 
@@ -42,7 +43,7 @@ function crystal_cave_entrance.Enter(map)
 	UI:WaitShowDialogue(STRINGS:Format(MapStrings['String_2']))
 	SV.global_quest.StoryProgression = 1
 	GAME:CutsceneMode(false)
-    else
+  else
     GAME:FadeIn(20)
   end
 

@@ -503,8 +503,8 @@
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
-"Min": 6,
-"Max": 10
+"Min": 3,
+"Max": 6
 }
 },
 "Ally": false,
@@ -629,7 +629,7 @@
 {
 "Item": {
 "spawns": {
-"supplies": {
+"apricorns": {
 "Spawn": [
 {
 "Spawn": {
@@ -639,7 +639,7 @@
 "Amount": 0,
 "Price": 0
 },
-"Rate": 6
+"Rate": 3
 },
 {
 "Spawn": {
@@ -649,7 +649,7 @@
 "Amount": 0,
 "Price": 0
 },
-"Rate": 6
+"Rate": 3
 },
 {
 "Spawn": {
@@ -659,8 +659,13 @@
 "Amount": 0,
 "Price": 0
 },
-"Rate": 12
+"Rate": 4
+}
+],
+"Rate": 3
 },
+"supplies": {
+"Spawn": [
 {
 "Spawn": {
 "ID": "berry_leppa",
@@ -669,7 +674,7 @@
 "Amount": 0,
 "Price": 0
 },
-"Rate": 21
+"Rate": 16
 },
 {
 "Spawn": {
@@ -679,7 +684,7 @@
 "Amount": 0,
 "Price": 0
 },
-"Rate": 21
+"Rate": 16
 },
 {
 "Spawn": {
@@ -699,7 +704,7 @@
 "Amount": 0,
 "Price": 0
 },
-"Rate": 21
+"Rate": 16
 },
 {
 "Spawn": {
@@ -709,7 +714,7 @@
 "Amount": 0,
 "Price": 0
 },
-"Rate": 21
+"Rate": 16
 }
 ],
 "Rate": 2
@@ -750,7 +755,7 @@
 "Rate": 8
 }
 },
-"spawnTotal": 10
+"spawnTotal": 13
 },
 "Range": {
 "Min": 0,
@@ -779,8 +784,8 @@
 "Gender": -1
 },
 "Level": {
-"Min": 3,
-"Max": 7
+"Min": 2,
+"Max": 5
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -807,7 +812,7 @@
 },
 "Level": {
 "Min": 1,
-"Max": 3
+"Max": 2
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -833,8 +838,8 @@
 "Gender": -1
 },
 "Level": {
-"Min": 2,
-"Max": 4
+"Min": 1,
+"Max": 3
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -860,8 +865,8 @@
 "Gender": -1
 },
 "Level": {
-"Min": 2,
-"Max": 6
+"Min": 1,
+"Max": 4
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -888,7 +893,7 @@
 },
 "Level": {
 "Min": 1,
-"Max": 4
+"Max": 3
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -914,8 +919,8 @@
 "Gender": -1
 },
 "Level": {
-"Min": 2,
-"Max": 5
+"Min": 1,
+"Max": 3
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -942,7 +947,7 @@
 },
 "Level": {
 "Min": 1,
-"Max": 4
+"Max": 2
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -968,8 +973,8 @@
 "Gender": -1
 },
 "Level": {
-"Min": 2,
-"Max": 4
+"Min": 1,
+"Max": 3
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -996,7 +1001,7 @@
 },
 "Level": {
 "Min": 1,
-"Max": 4
+"Max": 3
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -1023,7 +1028,7 @@
 },
 "Level": {
 "Min": 1,
-"Max": 4
+"Max": 3
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -1049,8 +1054,8 @@
 "Gender": -1
 },
 "Level": {
-"Min": 5,
-"Max": 6
+"Min": 3,
+"Max": 4
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -1076,8 +1081,8 @@
 "Gender": -1
 },
 "Level": {
-"Min": 2,
-"Max": 4
+"Min": 1,
+"Max": 3
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -1104,7 +1109,7 @@
 },
 "Level": {
 "Min": 1,
-"Max": 4
+"Max": 3
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
@@ -1130,8 +1135,8 @@
 "Gender": -1
 },
 "Level": {
-"Min": 2,
-"Max": 5
+"Min": 1,
+"Max": 3
 },
 "SpecifiedSkills": [],
 "Intrinsic": "",
