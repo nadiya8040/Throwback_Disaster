@@ -953,7 +953,11 @@
 "Intrinsic": "",
 "Tactic": "wander_normal",
 "SpawnConditions": [],
-"SpawnFeatures": []
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+}
+]
 },
 "Role": 0
 },
@@ -1034,7 +1038,11 @@
 "Intrinsic": "",
 "Tactic": "wander_normal",
 "SpawnConditions": [],
-"SpawnFeatures": []
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+}
+]
 },
 "Role": 0
 },

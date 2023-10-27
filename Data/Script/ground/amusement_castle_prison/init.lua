@@ -5,6 +5,7 @@
 ]]--
 -- Commonly included lua functions and data
 require 'common'
+require 'commonex'
 
 -- Package name
 local amusement_castle_prison = {}
@@ -206,6 +207,7 @@ function amusement_castle_prison.Block_1_Action(obj, activator)
 	GAME:WaitFrames(60)
 	GROUND:CharTurnToCharAnimated(gapori, player, 4)
 	GAME:WaitFrames(30)
+	COMMONEX.CharacterIntroduction('Introduction_Gapori')
 	gapori.Data.Nickname = 'Gapori'
 	UI:SetSpeaker(gapori)
 	UI:SetSpeakerEmotion("Normal")

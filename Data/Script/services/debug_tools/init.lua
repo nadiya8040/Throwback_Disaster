@@ -82,6 +82,7 @@ function DebugTools:OnNewGame()
 	_DATA.Save.ActiveTeam:SetRank("roguelocke")
 	if not GAME:InRogueMode() then
       _DATA.Save.ActiveTeam.Bank = 0
+	  _DATA.Save.ActiveTeam:SetRank("none")
 	end
 	SV.General.Starter = _DATA.Save.ActiveTeam.Players[0].BaseForm
   else
@@ -91,8 +92,6 @@ function DebugTools:OnNewGame()
     _DATA.Save.ActiveTeam.Money = 1000
     _DATA.Save.ActiveTeam.Bank = 1000000
   
-    local mon_id = RogueEssence.Dungeon.MonsterID("tdchar_gapori", 0, "normal", Gender.Male)
-    _DATA.Save.ActiveTeam.Players:Add(_DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 15, "", 0))
     local mon_id = RogueEssence.Dungeon.MonsterID("td_notebeat", 0, "normal", Gender.Male)
     _DATA.Save.ActiveTeam.Players:Add(_DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 15, "", 0))
 	local mon_id = RogueEssence.Dungeon.MonsterID("td_powpow", 0, "normal", Gender.Male)
@@ -102,8 +101,6 @@ function DebugTools:OnNewGame()
     _DATA.Save.ActiveTeam.Players[0].ActionEvents:Add(talk_evt)
 	talk_evt = RogueEssence.Dungeon.BattleScriptEvent("AllyInteract")
     _DATA.Save.ActiveTeam.Players[1].ActionEvents:Add(talk_evt)
-	talk_evt = RogueEssence.Dungeon.BattleScriptEvent("AllyInteract")
-    _DATA.Save.ActiveTeam.Players[2].ActionEvents:Add(talk_evt)
 	
     _DATA.Save.ActiveTeam.Leader.IsFounder = true
 	
@@ -142,6 +139,9 @@ end
   ---------------------------------------------------------------]]
 function DebugTools:OnLossPenalty(save) 
   assert(self, 'DebugTools:OnLossPenalty() : self is null!')
+  
+  --wipedout enable
+  SV.wipedout = true
  
   --remove money
   save.ActiveTeam.Money = 0

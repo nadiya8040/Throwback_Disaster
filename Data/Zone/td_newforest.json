@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.10.0",
+"Version": "0.7.18.2",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -11,6 +11,7 @@
 "NoEXP": false,
 "Level": 3,
 "LevelCap": false,
+"KeepSkills": false,
 "TeamRestrict": false,
 "TeamSize": -1,
 "MoneyRestrict": false,
@@ -1551,7 +1552,11 @@
 "Intrinsic": "",
 "Tactic": "wander_normal",
 "SpawnConditions": [],
-"SpawnFeatures": []
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+}
+]
 },
 "Role": 0
 },
@@ -1605,7 +1610,11 @@
 "Intrinsic": "",
 "Tactic": "wander_normal",
 "SpawnConditions": [],
-"SpawnFeatures": []
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+}
+]
 },
 "Role": 0
 },
@@ -1632,7 +1641,11 @@
 "Intrinsic": "",
 "Tactic": "wander_normal",
 "SpawnConditions": [],
-"SpawnFeatures": []
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+}
+]
 },
 "Role": 0
 },
@@ -1686,7 +1699,11 @@
 "Intrinsic": "",
 "Tactic": "wander_normal",
 "SpawnConditions": [],
-"SpawnFeatures": []
+"SpawnFeatures": [
+{
+"$type": "PMDC.LevelGen.MobSpawnWeak, PMDC"
+}
+]
 },
 "Role": 0
 },

@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.10.0",
+"Version": "0.7.18.2",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -11,6 +11,7 @@
 "NoEXP": false,
 "Level": 8,
 "LevelCap": false,
+"KeepSkills": false,
 "TeamRestrict": false,
 "TeamSize": -1,
 "MoneyRestrict": false,
@@ -1328,13 +1329,43 @@
 },
 {
 "Spawn": {
+"ID": "tm_rest",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1
+},
+{
+"Spawn": {
+"ID": "tm_false_swipe",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 1
+},
+{
+"Spawn": {
+"ID": "ammo_nokia3310",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 20
+},
+{
+"Spawn": {
 "ID": "food_apple",
 "Cursed": false,
 "HiddenValue": "",
 "Amount": 0,
 "Price": 0
 },
-"Rate": 50
+"Rate": 35
 },
 {
 "Spawn": {
@@ -1951,6 +1982,542 @@
 ]
 },
 "Spawns": []
+},
+{
+"$type": "PMDC.LevelGen.SpreadHouseZoneStep, PMDC",
+"Priority": {
+"str": [
+4,
+1
+]
+},
+"Items": [
+{
+"Spawn": {
+"IsMoney": false,
+"Cursed": false,
+"Value": "apricorn_perfect",
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"IsMoney": false,
+"Cursed": false,
+"Value": "apricorn_big",
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+},
+"Rate": 3,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"IsMoney": false,
+"Cursed": false,
+"Value": "apricorn_plain",
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+},
+"Rate": 15,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"IsMoney": false,
+"Cursed": false,
+"Value": "apricorn_white",
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+},
+"Rate": 12,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"IsMoney": false,
+"Cursed": false,
+"Value": "ammo_nokia3310",
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+},
+"Rate": 3,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"IsMoney": false,
+"Cursed": false,
+"Value": "evo_sun_ribbon",
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+},
+"Rate": 1,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"IsMoney": false,
+"Cursed": false,
+"Value": "evo_harmony_scarf",
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+},
+"Rate": 5,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"IsMoney": false,
+"Cursed": false,
+"Value": "held_friend_bow",
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+},
+"Rate": 5,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"IsMoney": false,
+"Cursed": false,
+"Value": "seed_joy",
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+},
+"Rate": 3,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"IsMoney": true,
+"Cursed": false,
+"Value": "",
+"HiddenValue": "",
+"Amount": 150,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+}
+],
+"ItemThemes": [
+{
+"Spawn": {
+"$type": "PMDC.LevelGen.ItemThemeNone, PMDC",
+"SpecialRatio": 0,
+"Amount": {
+"Min": 4,
+"Max": 6
+}
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+}
+],
+"Mobs": [
+{
+"Spawn": {
+"BaseForm": {
+"Species": "mantyke",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 5,
+"Max": 8
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 8,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "munchlax",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 5,
+"Max": 7
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "thief",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 8,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "riolu",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 5,
+"Max": 9
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 4,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "mime_jr",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 5,
+"Max": 8
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 8,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "bonsly",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 5,
+"Max": 8
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 6,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "magby",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 5,
+"Max": 7
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "elekid",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 5,
+"Max": 7
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "wooper",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 5,
+"Max": 10
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 4,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "teddiursa",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 5,
+"Max": 10
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 4,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "smoochum",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 5,
+"Max": 7
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+},
+{
+"Spawn": {
+"BaseForm": {
+"Species": "td_mikon",
+"Form": 0,
+"Skin": "",
+"Gender": -1
+},
+"Level": {
+"Min": 6,
+"Max": 9
+},
+"SpecifiedSkills": [],
+"Intrinsic": "",
+"Tactic": "wander_normal",
+"SpawnConditions": [],
+"SpawnFeatures": []
+},
+"Rate": 8,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+}
+],
+"MobThemes": [
+{
+"Spawn": {
+"$type": "PMDC.LevelGen.MobThemeNone, PMDC",
+"SpecialRatio": 50,
+"Amount": {
+"Min": 3,
+"Max": 8
+}
+},
+"Rate": 10,
+"Range": {
+"Min": 0,
+"Max": 10
+}
+}
+],
+"HouseStepSpawns": [
+{
+"Spawn": {
+"$type": "PMDC.LevelGen.MonsterHouseStep`1[[RogueEssence.LevelGen.ListMapGenContext, RogueEssence]], PMDC",
+"Filters": [
+{
+"$type": "RogueElements.RoomFilterComponent, RogueElements",
+"Negate": true,
+"Components": [
+{
+"$type": "RogueEssence.LevelGen.ImmutableRoom, RogueEssence"
+},
+{
+"$type": "PMDC.LevelGen.NoEventRoom, PMDC"
+}
+]
+}
+],
+"Items": [],
+"ItemThemes": [],
+"Mobs": [],
+"MobThemes": []
+},
+"Rate": 10
+}
+],
+"SpreadPlan": {
+"$type": "RogueEssence.LevelGen.SpreadPlanChance, RogueEssence",
+"Chance": 15,
+"FloorRange": {
+"Min": 6,
+"Max": 10
+}
+},
+"ModStates": []
 }
 ],
 "IsRelevant": true
