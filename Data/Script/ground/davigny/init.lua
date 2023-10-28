@@ -217,7 +217,7 @@ end
 
 function davigny.Nuzleaf_Action(chara, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
-  GROUND:CharTurnToChar(chara,player)
+  GROUND:CharTurnToChar(chara,CH('PLAYER'))
   UI:SetSpeaker(chara)
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nuzleaf_0']))
   UI:WaitShowDialogue(STRINGS:Format(MapStrings['Nuzleaf_1']))

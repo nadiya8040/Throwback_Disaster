@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.12.0",
+"Version": "0.7.18.2",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -11,6 +11,7 @@
 "NoEXP": false,
 "Level": 12,
 "LevelCap": false,
+"KeepSkills": false,
 "TeamRestrict": false,
 "TeamSize": -1,
 "MoneyRestrict": false,
@@ -534,8 +535,8 @@
 "Spawn": {
 "$type": "RogueElements.ContextSpawner`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.InvItem, RogueEssence]], RogueElements",
 "Amount": {
-"Min": 3,
-"Max": 7
+"Min": 5,
+"Max": 11
 }
 }
 }
@@ -648,6 +649,66 @@
 "Price": 0
 },
 "Rate": 24
+},
+{
+"Spawn": {
+"ID": "medicine_potion",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10
+},
+{
+"Spawn": {
+"ID": "orb_one_shot",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 2
+},
+{
+"Spawn": {
+"ID": "medicine_full_heal",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 6
+},
+{
+"Spawn": {
+"ID": "medicine_dire_hit",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 3
+},
+{
+"Spawn": {
+"ID": "medicine_x_sp_atk",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 3
+},
+{
+"Spawn": {
+"ID": "herb_white",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 10
 },
 {
 "Spawn": {
@@ -2091,6 +2152,61 @@
 "SpreadPlan": {
 "$type": "RogueEssence.LevelGen.SpreadPlanChance, RogueEssence",
 "Chance": 25,
+"FloorRange": {
+"Min": 0,
+"Max": 3
+}
+},
+"ModStates": []
+},
+{
+"$type": "RogueEssence.LevelGen.SpreadStepZoneStep, RogueEssence",
+"StepPriority": {
+"str": [
+6,
+1
+]
+},
+"Spawns": {
+"$type": "RogueElements.SpawnList`1[[RogueElements.IGenStep, RogueElements]], RogueElements",
+"$values": [
+{
+"Spawn": {
+"$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
+"Spawn": {
+"$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
+"Picker": {
+"$type": "RogueElements.PresetMultiRand`1[[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
+"ToSpawn": [
+{
+"$type": "RogueElements.PresetPicker`1[[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
+"ToSpawn": {
+"IsMoney": false,
+"Cursed": false,
+"Value": "seed_ban",
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0,
+"TileLoc": {
+"X": 0,
+"Y": 0
+}
+}
+}
+]
+}
+}
+},
+"Rate": 10
+}
+]
+},
+"SpreadPlan": {
+"$type": "RogueEssence.LevelGen.SpreadPlanSpaced, RogueEssence",
+"FloorSpacing": {
+"Min": 1,
+"Max": 2
+},
 "FloorRange": {
 "Min": 0,
 "Max": 3

@@ -264,8 +264,8 @@
 },
 "Respawn": {
 "$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
-"MaxFoes": 3,
-"RespawnTime": 80
+"MaxFoes": 2,
+"RespawnTime": 145
 },
 "MaxFoes": 0,
 "RespawnTime": 0
@@ -493,8 +493,8 @@
 "Spawn": {
 "$type": "RogueElements.ContextSpawner`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.InvItem, RogueEssence]], RogueElements",
 "Amount": {
-"Min": 4,
-"Max": 8
+"Min": 2,
+"Max": 5
 }
 }
 }
@@ -517,12 +517,12 @@
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
-"Min": 6,
-"Max": 10
+"Min": 2,
+"Max": 6
 }
 },
 "Ally": false,
-"ClumpFactor": 35
+"ClumpFactor": 10
 }
 },
 {
@@ -857,8 +857,8 @@
 },
 "Respawn": {
 "$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
-"MaxFoes": 3,
-"RespawnTime": 80
+"MaxFoes": 2,
+"RespawnTime": 100
 },
 "MaxFoes": 0,
 "RespawnTime": 0
@@ -1086,8 +1086,8 @@
 "Spawn": {
 "$type": "RogueElements.ContextSpawner`2[[RogueEssence.LevelGen.MapGenContext, RogueEssence],[RogueEssence.Dungeon.InvItem, RogueEssence]], RogueElements",
 "Amount": {
-"Min": 4,
-"Max": 8
+"Min": 3,
+"Max": 7
 }
 }
 }
@@ -1110,12 +1110,12 @@
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
-"Min": 7,
-"Max": 14
+"Min": 4,
+"Max": 6
 }
 },
 "Ally": false,
-"ClumpFactor": 35
+"ClumpFactor": 15
 }
 },
 {
@@ -1299,6 +1299,36 @@
 },
 {
 "Spawn": {
+"ID": "orb_one_shot",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 4
+},
+{
+"Spawn": {
+"ID": "orb_escape",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 6
+},
+{
+"Spawn": {
+"ID": "orb_one_room",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 4
+},
+{
+"Spawn": {
 "ID": "held_friend_bow",
 "Cursed": false,
 "HiddenValue": "",
@@ -1376,6 +1406,16 @@
 "Price": 0
 },
 "Rate": 4
+},
+{
+"Spawn": {
+"ID": "medicine_potion",
+"Cursed": false,
+"HiddenValue": "",
+"Amount": 0,
+"Price": 0
+},
+"Rate": 12
 },
 {
 "Spawn": {
@@ -1939,27 +1979,19 @@
 ],
 "TeamSizes": [
 {
-"Spawn": 4,
+"Spawn": 3,
 "Rate": 5,
 "Range": {
-"Min": 7,
-"Max": 10
-}
-},
-{
-"Spawn": 3,
-"Rate": 7,
-"Range": {
-"Min": 4,
+"Min": 6,
 "Max": 10
 }
 },
 {
 "Spawn": 2,
-"Rate": 10,
+"Rate": 8,
 "Range": {
-"Min": 2,
-"Max": 7
+"Min": 3,
+"Max": 8
 }
 },
 {
@@ -1967,7 +1999,7 @@
 "Rate": 12,
 "Range": {
 "Min": 0,
-"Max": 3
+"Max": 5
 }
 }
 ],

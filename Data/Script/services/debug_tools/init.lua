@@ -7,6 +7,7 @@
 ]]--
 require 'common'
 require 'services.baseservice'
+require 'recruit_list'
 
 --Declare class DebugTools
 local DebugTools = Class('DebugTools', BaseService)
@@ -54,13 +55,30 @@ end
       This is called as a coroutine.
 ---------------------------------------------------------------]]
 function DebugTools:OnMenuButtonPressed()
-  if DebugTools.MainMenu == nil then
-    DebugTools.MainMenu = RogueEssence.Menu.MainMenu()
-  end
-  DebugTools.MainMenu:SetupChoices()
-  DebugTools.MainMenu:SetupTitleAndSummary()
-  DebugTools.MainMenu:InitMenu()
-  TASK:WaitTask(_MENU:ProcessMenuCoroutine(DebugTools.MainMenu))
+    if DebugTools.MainMenu == nil then
+        DebugTools.MainMenu = RogueEssence.Menu.MainMenu()
+    end
+    DebugTools.MainMenu:SetupChoices()
+
+
+    local index = 4
+    if RogueEssence.GameManager.Instance.CurrentScene == RogueEssence.Dungeon.DungeonScene.Instance then
+        index = 5
+    end
+    DebugTools.MainMenu.Choices:RemoveAt(index)
+    DebugTools.MainMenu.Choices:Insert(index, RogueEssence.Menu.MenuTextChoice("Others", function () _MENU:AddMenu(DebugTools:CustomDungeonOthersMenu(), false) end))
+
+    DebugTools.MainMenu:SetupTitleAndSummary()
+    DebugTools.MainMenu:InitMenu()
+    TASK:WaitTask(_MENU:ProcessMenuCoroutine(DebugTools.MainMenu))
+end
+
+function DebugTools:CustomDungeonOthersMenu()
+    local menu = RogueEssence.Menu.OthersMenu()
+    menu:SetupChoices();
+    menu.Choices:Insert(1, RogueEssence.Menu.MenuTextChoice("Recruits", function () _MENU:AddMenu(RecruitMainChoice:new(menu.Bounds.Width+menu.Bounds.X+2).menu, true) end))
+    menu:InitMenu();
+    return menu
 end
 
 --[[---------------------------------------------------------------
